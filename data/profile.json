@@ -288,12 +288,19 @@
     {
       "role": "Full Stack developer & Tech Leader",
       "company": "White Fox",      
-      "descriptions": [ 
-        "Full Stack developer working with Microsoft technologies (C#, WCF, WSSF, Nhibernate) on the back-end and Angular/Javascript/Xslt on the front-end. Also Working as tech leader and solutions architect using agile methodologies (Scrum, TDD, XP etc) for B&T (one of the greatest money exchange broker here in Brazil).",
-        "Maintaining and evolving old monoliths, dividing then over microservices communicating through Sql/Azure ServiceBroker in order to escalate from dozens to thousands of requests per minute. ",
-        "Creating APIs for customers, integrations with different institutions like Bacen (Brazil's Central Bank), Receita Federal (Brazil's Federal Reserve), Brasil Pré-Pagos (Prepaid multi-currency Card), integrations for payments and receiving in Brazil from electronic transfers (TED) and payments to abroad like Swift, Moneygram and cryptocurrencies (Bitcoin/Ripple).",
-        "Automating deployments with Azure Devops and management activities with Microsoft Bot Framework. Creating tooling to speed up development for the team with visual studio extensions and to maintain some older applications (ActiveWriter)."
-      ],
+      "description": "Full Stack developer working with Microsoft technologies (C#, WCF, WSSF, Nhibernate) on the back-end and Angular/Javascript/Xslt on the front-end. Also Working as tech leader and solutions architect using agile methodologies (Scrum, TDD, XP etc) for B&T (one of the greatest money exchange broker here in Brazil).",
+      "achievements": { 
+        "title": "Some of our team achievements over this decade:",
+        "list": [
+        "Implemented a test culture (TDD) mitigating errors in deployments and eliminating regressions and bugs in production;",
+        "Automated deployments with Azure Devops and management activities with Microsoft Bot Framework;",
+        "Maintained and evolved old monoliths, dividing then over microservices communicating through Sql/Azure ServiceBroker in order to escalate from dozens to thousands of requests per minute.",        
+        "Integrated with different institutions like Bacen STA (Brazil's Central Bank messaging system), Receita Federal (Brazil's Federal Reserve), Brasil Pré-Pagos (Prepaid multi-currency Card) etc;",
+        "Integrated payments and receiving from electronic transfers in Brazil (TED);",
+        "Integrated with cryptocurrencies (Bitcoin) for payment and receiving in Brazilian Real;",
+        "Ported ActiveWriter to Visual Studio 2017 and 2019 so the team can work with modern setup even in legacy Nhibernate applications."
+        ]
+      },
       "start": "11/2009",
       "end": ""
     },
@@ -301,6 +308,13 @@
       "role": "Biztalk and Sharepoint Consultant",
       "company": "Ecorp",
       "description": "Senior consultant and developer in Microsoft BizTalk, SharePoint, SQL Server, ASP.NET working directly to customers from Rio de Janeiro (Light and L'Oreal) performing technical management, gathering requirements, application development and SAP integrations maintenance (XI and PI modules).",
+      "achievements": { 
+        "title": "Key Achievements:",
+        "list": [
+        "Implemented Biztalk integration between oracle problem system with SAP portable mobile gateway. This integration addressed all requests for external support from Light customers in Rio de Janeiro;",        
+        "Automated the publishing of Light KPIs from Excel direct in to the company's internal Sharepoint."
+        ]
+      },
       "start": "01/2009",
       "end": "11/2009"
     },
@@ -308,6 +322,13 @@
       "role": "Senior Developer",
       "company": "Oi - Accenture",
       "description": "Maintenance of CRM System / ERP of the OI Tsunami project (SIA) and EPM (Sharepoint and Microsoft Project) with C# programming (Asp.Net and Desktop) using CCF, SQL Server and WCF; Systems optimizations and database management with Oracle and MS SQL Server. Also gathering requirements, negotiating deadlines, planning projects directly with the customers.",
+      "achievements": { 
+        "title": "Key Achievements:",
+        "list": [
+        "Implemented M.A.R.T a walkthrough system that, using external APIs for testing phone line quality, guides the call-center operators what actions had to be done to help customers (yep, the system that asks you to turn your modem off and on);",        
+        "Improved the performance of the monthly conciliation process of Oi (Batimento) 24x. It used to take up to 12 hours a month to finish and after optimization, it took less than 30 minutes."
+        ]
+      },
       "start": "11/2007",
       "end": "01/2009"
     },
@@ -321,7 +342,7 @@
     {
       "role": "Web Developer",
       "company": "AG Sistemas",
-      "description": "Web Developer working with PHP and ASP classic. Developing and maintaining the Apligraf´s CRM/ERP for StockMarket. For Digipix, We developed their photographic revelation service for companies (It received the Award of best solution by the Exame Magazine in 2005).",
+      "description": "Web Developer working with PHP and ASP classic. Developing and maintaining the Apligraf´s CRM/ERP for StockMarket. For Digipix, We developed their photographic revelation service for companies. This service is still in use in brazilian e-commerces like B2W (Americanas.com, Submarino, Shoptime), Saraiva, Extra etc.",
       "start": "11/2004",
       "end": "06/2006"
     }    
