@@ -282,8 +282,13 @@
   "experience": [
     {
       "role": "Full Stack developer & Tech Leader",
-      "company": "White Fox",
-      "description": "<p class='pb-2'>Full Stack developer working with Microsoft technologies (C#, WCF, WSSF, Nhibernate) on the back-end and Angular/Javascript/Xslt on the front-end. Also Working as tech leader and solutions architect using agile methodologies (Scrum, TDD, XP etc) for B&T (one of the greatest money exchange broker here in Brazil). </p> <p class='pb-2'> Maintaining and evolving old monoliths, dividing then over microservices communicating through Sql/Azure ServiceBroker in order to escalate from dozens to thousands of requests per minute. </p> <p>Automating deployments with Azure Devops and management activities with Microsoft Bot Framework. Creating tooling to speed up development for the team with visual studio extensions and to maintain some older applications (ActiveWriter).</p> ",
+      "company": "White Fox",      
+      "descriptions": [ 
+        "Full Stack developer working with Microsoft technologies (C#, WCF, WSSF, Nhibernate) on the back-end and Angular/Javascript/Xslt on the front-end. Also Working as tech leader and solutions architect using agile methodologies (Scrum, TDD, XP etc) for B&T (one of the greatest money exchange broker here in Brazil).",
+        "Maintaining and evolving old monoliths, dividing then over microservices communicating through Sql/Azure ServiceBroker in order to escalate from dozens to thousands of requests per minute. ",
+        "Creating APIs for customers, integrations with different institutions like Bacen (Brazil's Central Bank), Receita Federal (Brazil's Federal Reserve), Brasil Pré-Pagos (Prepaid multi-currency Card), integrations for payments and receiving in Brazil from electronic transfers (TED) and payments to abroad like Swift, Moneygram and cryptocurrencies (Bitcoin/Ripple).",
+        "Automating deployments with Azure Devops and management activities with Microsoft Bot Framework. Creating tooling to speed up development for the team with visual studio extensions and to maintain some older applications (ActiveWriter)."
+      ],
       "start": "11/2009",
       "end": ""
     },
@@ -371,7 +376,11 @@
         "start": "09/2018",
         "end": "12/2019",
         "technologies": "Microsoft Bot Framework, NodeJs, Typescript, MS Sql Server, LUIS (Language Understanding Service)",
-        "description": "<p class='pb-2'> At White Fox We basically support clients over chat applications, and we have a in house software for billing and planning. It was a natural step to implement a virtual assistant to help us integrate both. Jarvis was a humorous and grumpy Skype chat application wrote in typescript using Microsoft Bot Framework and the Language Understanding Service (to translate users input into intents and actions). </p><p class='pb-2'>His capabilities included search for tasks, projects, registering billing, check team velocity and common repetitive tasks like generate codes and valid documents (CPF/CEPs, CNPJs...). </p><p class='pb-2'>With new versions of Bot Framework, We create a new assistant called Lana on Microsoft Teams with most of Jarvis capabilities, We are planning to integrate her with Azure Devops (for CI/CD) and a service desk system.</p>",
+        "descriptions": [
+          "At White Fox We basically support clients over chat applications, and we have a in house software for billing and planning. It was a natural step to implement a virtual assistant to help us integrate both. Jarvis was a humorous and grumpy Skype chat application wrote in typescript using Microsoft Bot Framework and the Language Understanding Service (to translate users input into intents and actions).",
+          "His capabilities included search for tasks, projects, registering billing, check team velocity and common repetitive tasks like generate codes and valid documents (CPF/CEPs, CNPJs...). ", 
+          "With new versions of Bot Framework, We create a new assistant called Lana on Microsoft Teams with most of Jarvis capabilities, We are planning to integrate her with Azure Devops (for CI/CD) and a service desk system."
+        ],
         "links": [
           { "title": "Visit Source Code", "url": "https://github.com/thluiz/jarvis-whitefox" }
         ]        

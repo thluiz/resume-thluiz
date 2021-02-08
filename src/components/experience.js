@@ -10,7 +10,8 @@ const Experience = ({ data }) => (
           <h3 className="item-sub">
             {item.company} | {item.start} - {item.end || 'PRESENT'}
           </h3>
-          <p className="pt-2" dangerouslySetInnerHTML={{__html: item.description }} ></p>
+          { item.description && <p className="pt-2" dangerouslySetInnerHTML={{__html: item.description }} ></p> }
+          { item.descriptions && item.descriptions.map(description => <p className="pt-2" dangerouslySetInnerHTML={{__html: description }} ></p>) }
         </article>
       ))}
   </section>

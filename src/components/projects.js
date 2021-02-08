@@ -11,7 +11,8 @@ const Projects = ({ data }) => (
         <h2 className="item-header">{item.name}</h2>
         <h3 className="item-sub">{item.company} {  item.start && <span> | { item.start } - { item.end || "Active" } </span> }</h3>
         <h4 className="item-sub text-secondary-500"><span className="text-secondary-700" >Technologies: </span> {item.technologies}</h4>
-        <p className="pt-1 pb-3" dangerouslySetInnerHTML={{__html: item.description}} ></p>
+        {item.description && <p className="pt-1 pb-3" dangerouslySetInnerHTML={{__html: item.description}} ></p> }
+        {item.descriptions && item.descriptions.map(description => <p className="pb-3" dangerouslySetInnerHTML={{__html: description}} ></p>) }
         { item.link && (
         <div className="flex justify-end">
           <a
