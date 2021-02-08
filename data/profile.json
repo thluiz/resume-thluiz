@@ -365,9 +365,9 @@
         "name": "Elug |> RJ",
         "company": "Meetup group",        
         "start": "2016",        
-        "end": "more or less active",
+        "end": "not so active",
         "technologies": "Elixir, Phoenix Framework, OTP, Web RTC",
-        "description": "For those who don't bother with dynamic languages, Elixir is a invite to 'fall in love'. Builded over the powerfull OTP from Erlang, I believe that every programmers should have take a look in the ideas behind it. I have joined as a organizer in 2016 and made two great events: the 4th, where We builded a realtime Audio and Video chat over WebRTC; and the 6th, where we built a multiplayer starship game.  I was planning to revamp it in 2020 but the pandemic make it be delayed to 2021.",
+        "description": "For those who do not bother with dynamic languages, Elixir is an invite to 'fall in love'. Built over the powerful OTP from Erlang, I believe that every programmers should look for the ideas behind it. I have joined as an organizer in 2016 and made two great events: the fourth, where we built a real-time Audio and Video chat over WebRTC; and the sixth, where we built a multiplayer starship game. I was planning to revamp it in 2020 but the pandemic delayed it to 2021.",
         "links": [
           { "title": "Visit Meet Up", "url": "https://www.meetup.com/elixir-rj/" },
           { "title": "Visit 6th presentation", "url": "https://github.com/thluiz/sexto_elug_rj" },
