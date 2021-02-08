@@ -56,6 +56,10 @@
           "percent": 96
         },
         {
+          "name": "Typescript",
+          "percent": 84
+        },
+        {
           "name": "F#",
           "percent": 65
         },
