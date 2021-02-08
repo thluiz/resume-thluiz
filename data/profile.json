@@ -278,6 +278,7 @@
     },
     {
       "institution": "UERJ (Rio de Janeiro State University) ",
+      "institution_url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro_State_University",
       "degree": "Chemical Engineering",
       "start": "2003",
       "end": "2006 (Not completed)"
@@ -338,7 +339,7 @@
   "role": "Full Stack Developer and Tech Leader",
   "projects": {
     "title": "Side Projects",
-    "subtitle": "Learn new languages and paradigms usually lead us to new ways to approach and resolve problems. So, I am always open to experiment and build tools to help people around me.",
+    "subtitle": "The best way to learn new languages and paradigms are building and testing them. Therefore, I am always open to experiment and build tools to help people around me. It usually lead me to new ways to approach and resolve problems.",
     "projects": [
       {
         "name": "SIG (Integrated Management System)",

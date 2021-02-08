@@ -8,7 +8,7 @@ const Education = ({ data }) => (
         <div className="my-2" key={item.degree}>
           <h2 className="item-header text-lg">{item.degree}</h2>
           { item.subtitle_degree && <h3 className="item-sub">{ item.subtitle_degree }</h3> }
-          <h3 className="item-sub">
+          <h3 className="item-sub text-secondary-500">
             { (item.institution_url  )
               ? <a
                 className="mr-2"
@@ -19,7 +19,7 @@ const Education = ({ data }) => (
                 { item.institution }
               </a>
             : 
-            <span>item.institution</span>            
+            <span> { item.institution } </span>            
           }
           </h3>
           <p className="text-sm text-neutral-500 font-light">
