@@ -175,6 +175,12 @@
         },
         {
           "name": "Sharepoint"
+        },
+        {
+          "name": "Dokku"
+        },
+        {
+          "name": "Heroku"
         }
       ]
     },
