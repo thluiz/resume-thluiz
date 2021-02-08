@@ -6,26 +6,23 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Baran Cezayirli | Technologist`,
-    author: `Baran Cezayirli`,
-    description: `With 10+ years of experience in various industries, I help tech
-              startups from idea phase to high volumes. I design and build
-              scalable solutions, implement internal processes that fit your
-              organization, build teams that produce results.`,
-    siteUrl: `https://barancezayirli.com/`,
+    title: `Thiago Luiz Silva | Full Stack Developer and Tech Leader`,
+    author: `Thiago Luiz Silva`,
+    description: `I am a self-taught full stack developer who can quickly adapt to new circunstances. I make fast and solid web applications to solve problems while maintaining deadlines and budgets.`,
+    siteUrl: `https://dev.thluiz.com/`,
     social: {
-      twitter: `barancezayirli`,
+      twitter: `thluiz`,
     },
   },
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Baran Cezayirli | Technologist`,
-        short_name: `CV`,
+        name: `Thiago Luiz Silva | Full Stack Developer and Tech Leader`,
+        short_name: `CV - Thiago Silva`,
         start_url: `/`,
         background_color: `#f7f0eb`,
-        theme_color: `#38B2AC`,
+        theme_color: `#320dad`,
         display: `standalone`,
         icon: 'src/assets/site-icon.png'
       },

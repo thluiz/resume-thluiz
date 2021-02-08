@@ -1,58 +1,45 @@
 {
   "contact": {
-    "phone": "+380 63 251 76 44",
-    "email": "contact@barancezayirli.com",
-    "website": "https://barancezayirli.com",
-    "location": "Kiev, Ukraine"
+    "phone": "+55 021 97627 8160",
+    "email": "contact@thluiz.com",    
+    "location": "Rio de Janeiro, Brazil"
   },
   "skills": [
     {
       "title": "General",
       "type": "percent",
-      "subskills": [
-        {
-          "name": "Architecture",
-          "percent": 89
-        },
-        {
-          "name": "Mobile/Web App Development",
-          "percent": 95
-        },
-        {
-          "name": "Product Management",
-          "percent": 85
-        },
-        {
-          "name": "Project Management",
-          "percent": 92
-        },
-        {
-          "name": "Game Development",
-          "percent": 70
-        },
-        {
-          "name": "Blockchain",
-          "percent": 85
-        },
-        {
-          "name": "Dev Ops",
-          "percent": 81
-        },
+      "subskills": [        
         {
           "name": "Backend Development",
           "percent": 93
         },
         {
-          "name": "Data Science",
-          "percent": 65
+          "name": "Frontend Development",
+          "percent": 85
+        },
+        {
+          "name": "Architecture",
+          "percent": 79
+        },
+        {
+          "name": "Dev Ops",
+          "percent": 55
+        },
+        {
+          "name": "Project Management",
+          "percent": 62
         },
         {
           "name": "Artificial Intelligence",
-          "percent": 70
+          "percent": 52
+        },
+        {
+          "name": "Data Science",
+          "percent": 45
         },
         {
           "name": "UX",
-          "percent": 80
+          "percent": 47
         }
       ]
     },
@@ -61,32 +48,40 @@
       "type": "percent",
       "subskills": [
         {
+          "name": "C#",
+          "percent": 96
+        },
+        {
           "name": "Javascript",
           "percent": 96
         },
         {
-          "name": "Java",
-          "percent": 82
+          "name": "F#",
+          "percent": 65
         },
         {
-          "name": "Python",
-          "percent": 85
+          "name": "Powershell",
+          "percent": 70
         },
         {
-          "name": "C#",
-          "percent": 74
+          "name": "Elixir",
+          "percent": 60
         },
         {
-          "name": "Solidity",
-          "percent": 85
+          "name": "Ruby",
+          "percent": 55
         },
         {
           "name": "Dart",
-          "percent": 75
+          "percent": 45
         },
         {
-          "name": "Go",
-          "percent": 60
+          "name": "CSS",
+          "percent": 55
+        },
+        {
+          "name": "Xml/Xslt",
+          "percent": 81
         }
       ]
     },
@@ -95,85 +90,91 @@
       "type": "tag",
       "subskills": [
         {
-          "name": "React"
+          "name": "ASP.Net MVC"
         },
         {
-          "name": "Flutter"
+          "name": ".Net Core"
         },
         {
-          "name": "React Native"
+          "name": "Angular 2+"
         },
         {
-          "name": "Vue"
+          "name": "Bootstrap"
         },
         {
-          "name": "Spring"
+          "name": "Jquery"
         },
         {
-          "name": "Angular"
-        },
+          "name": "AngularJs"
+        },        
         {
-          "name": "Electron"
-        },
-        {
-          "name": "Node"
-        },
-        {
-          "name": "Flusk"
+          "name": "NodeJs"
         },
         {
           "name": "Express"
         },
         {
-          "name": "Koa"
+          "name": "React"
         },
         {
           "name": "Gatsby"
         },
         {
-          "name": "Apollo"
+          "name": "TailwindCss"
         },
         {
-          "name": "Django"
+          "name": "Nhibernate"
         },
         {
-          "name": "Loopback"
+          "name": "Entity Framework"
         },
         {
-          "name": "Next"
+          "name": "Ruby on Rails"
         },
         {
-          "name": "Amplify"
+          "name": "Phoenix Framework"
         },
         {
-          "name": "Pixi"
+          "name": "Microsoft Bot Framework"
         },
         {
-          "name": "Phaser"
-        },
-        {
-          "name": "Feathers"
+          "name": "Xamarin"
         }
       ]
     },
     {
-      "title": "Software",
+      "title": "Software & Platforms",
       "type": "tag",
       "subskills": [
+        {
+          "name": "Azure"
+        },
+        {
+          "name": "Windows Server"
+        },
+        {
+          "name": "Linux"
+        },
+        {
+          "name": "IIS"
+        },
+        {
+          "name": "OTP"
+        },
         {
           "name": "Docker"
         },
         {
-          "name": "Jira"
+          "name": "Microsoft Visual Studio"
         },
         {
-          "name": "Unity"
+          "name": "VS Code"
         },
         {
-          "name": "Godot"
+          "name": "Biztalk"
         },
         {
-          "name": "Google Analytics"
+          "name": "Sharepoint"
         }
       ]
     },
@@ -182,127 +183,210 @@
       "type": "tag",
       "subskills": [
         {
-          "name": "Postgresql"
+          "name": "MS Sql"
         },
         {
-          "name": "Mongodb"
+          "name": "PostgreSql"
         },
         {
-          "name": "Parse"
+          "name": "MySql"
+        },
+        {
+          "name": "CosmoDB"
         },
         {
           "name": "Firebase"
         },
         {
-          "name": "Elastic Search"
+          "name": "Mongodb"
+        },
+        {
+          "name": "Redis"
+        },
+        {
+          "name": "ETS"
+        },
+        {
+          "name": "Mnesia"
+        }
+      ]
+    },
+    {
+      "title": "Methodologies",
+      "type": "tag",
+      "subskills": [
+        {
+          "name": "TDD"
+        },
+        {
+          "name": "DDD"
+        },
+        {
+          "name": "XP"
+        },
+        {
+          "name": "Kanban"
+        }
+      ]
+    },
+    {
+      "title": "Hobbies",
+      "type": "tag",
+      "subskills": [
+        {
+          "name": "Kung Fu"
+        },
+        {
+          "name": "Painting"
+        },
+        {
+          "name": "Drawing"
+        },
+        {
+          "name": "Cycling"
         }
       ]
     }
   ],
-  "summary": "Highly focused technologist with a multidisciplinary skill set honed over 15+ years in the IT industry. I strive to build great products and can take an initial idea, tackle it from multiple angles and take it from something great to something incredible. With 15+ years of experience in various industries, I help tech startups from idea phase to high volumes. I design and build scalable solutions, implement internal processes that fit your organization, build teams that produce results.",
+  "summary": "I am a self-taught full stack developer who can quickly adapt to new circumstances. With a multidisciplinary skill set acquired over 15+ years in various domains, I make fast and solid web applications to solve problems while maintaining deadlines and budgets. <br /> I am looking for new challenges and opportunities for growth and learning.",
   "education": [
     {
-      "institution": "Middle East Technical University, Turkey",
-      "degree": "Geological Engineering",
-      "start": "2013",
-      "end": "2006"
+      "institution": "Moy Yat Ving Tsun Martial Intelligence",
+      "institution_url": "http://myvt.org/",
+      "degree": "Final Superior Level",
+      "subtitle_degree": "of Martial Intelligence Program",
+      "start": "11/2014",
+      "end": ""
     },
     {
-      "institution": "Gazi University, Turkey",
-      "degree": "Industrial Engineering",
-      "start": "2002",
-      "end": "2006"
+      "institution": "Moy Yat Ving Tsun Martial Intelligence",
+      "institution_url": "http://myvt.org/",
+      "degree": "Basic to Medial Superior Level",
+      "subtitle_degree": "of Martial Intelligence Program",
+      "start": "10/2005",
+      "end": "11/2014"
+    },
+    {
+      "institution": "UERJ (Rio de Janeiro State University) ",
+      "degree": "Chemical Engineering",
+      "start": "2003",
+      "end": "2006 (Not completed)"
     }
   ],
   "experience": [
     {
-      "role": "Consultant",
-      "company": "Baran Cezayirli Consulting",
-      "description": "I consult startups to take their concept to the next level.",
-      "start": "08/2018",
+      "role": "Full Stack developer & Tech Leader",
+      "company": "White Fox",
+      "description": "<p class='pb-2'>Full Stack developer working with Microsoft technologies (C#, WCF, WSSF, Nhibernate) on the back-end and Angular/Javascript/Xslt on the front-end. Also Working as tech leader and solutions architect using agile methodologies (Scrum, TDD, XP etc) for B&T (one of the greatest money exchange broker here in Brazil). </p> <p class='pb-2'> Maintaining and evolving old monoliths, dividing then over microservices communicating through Sql/Azure ServiceBroker in order to escalate from dozens to thousands of requests per minute. </p> <p>Automating deployments with Azure Devops and management activities with Microsoft Bot Framework. Creating tooling to speed up development for the team with visual studio extensions and to maintain some older applications (ActiveWriter).</p> ",
+      "start": "11/2009",
       "end": ""
     },
     {
-      "role": "Full Stack Tech Lead",
-      "company": "Malaeb Limited",
-      "description": "Malaeb is a group sports community and booking platform. I was managing all technical aspects of the product. I designed a new solution to improve the current platform, build and manage a new development team to migrate the new app. Implement better internal processes to increase productivity.",
-      "start": "11/2018",
-      "end": "09/2019"
+      "role": "Biztalk and Sharepoint Consultant",
+      "company": "Ecorp",
+      "description": "Senior consultant and developer in Microsoft BizTalk, SharePoint, SQL Server, ASP.NET working directly to customers from Rio de Janeiro (Light and L'Oreal) performing technical management, gathering requirements, application development and SAP integrations maintenance (XI and PI modules).",
+      "start": "01/2009",
+      "end": "11/2009"
     },
     {
-      "role": "Full Stack Tech Lead",
-      "company": "Solve Care",
-      "description": "Solve care is a healthcare blockchain platform. I was responsible for the client side development team and architecture of the platform. I was also active in product management team.",
-      "start": "04/2018",
-      "end": "11/2018"
+      "role": "Senior Developer",
+      "company": "Oi - Accenture",
+      "description": "Maintenance of CRM System / ERP of the OI Tsunami project (SIA) and EPM (Sharepoint and Microsoft Project) with C# programming (Asp.Net and Desktop) using CCF, SQL Server and WCF; Systems optimizations and database management with Oracle and MS SQL Server. Also gathering requirements, negotiating deadlines, planning projects directly with the customers.",
+      "start": "11/2007",
+      "end": "01/2009"
     },
     {
-      "role": "Full Stack Lead Developer",
-      "company": "Applied Blockchain",
-      "description": "Applied Blockchain built blockchain applications for enterprises and startups. I built 4 full stack blockchain projects during my contract.",
-      "start": "10/2017",
-      "end": "04/2018"
+      "role": "Senior Developer & Team Leader",
+      "company": "Always Web",
+      "description": "Programming in several languages (C#, VB, PHP, Javascript, ASP and even ActionScript) for Web and Desktop, database management (SQL SERVER, MYSQL and Oracle). Also working as a Project Manager and Team Leader creating functional and technical specification for two teams between Rio de Janeiro and São Paulo. Our principal clients were Aliança do Brasil (Insurance company of Banco do Brasil), Cultura Inglesa (English School) and Thomson Edu.",
+      "start": "06/2006",
+      "end": "11/2007"
     },
     {
-      "role": "Full Stack Lead Developer",
-      "company": "Dmapper",
-      "description": "Worked as a lead full-stack developer for Cortex which is B2B audit automation software for Deloitte. I was responsible for the architecture and development of the platform, managing development team.",
-      "start": "12/2016",
-      "end": "10/2017"
-    },
-    {
-      "role": "Front End Developer - UI/UX Designer",
-      "company": "GovRight",
-      "description": "GovRight provides citizens the opportunity to understand and contribute to government and legislation. I was responsible for the UX and development of admin interface for the platform.",
-      "start": "11/2015",
-      "end": "04/2016"
-    },
-    {
-      "role": "Full Stack Developer",
-      "company": "Freelance",
-      "description": "In the first years of my career, I had the privilege to work with many startups and building my own games and applications.",
-      "start": "04/2008",
-      "end": "01/2016"
-    }
+      "role": "Web Developer",
+      "company": "AG Sistemas",
+      "description": "Web Developer working with PHP and ASP classic. Developing and maintaining the Apligraf´s CRM/ERP for StockMarket. For Digipix, We developed their photographic revelation service for companies (It received the Award of best solution by the Exame Magazine in 2005).",
+      "start": "11/2004",
+      "end": "06/2006"
+    }    
   ],
-  "social": [
-    {
-      "service": "youtube",
-      "url": "https://www.youtube.com/channel/UCczRc31u_YXNiSpYKxQU_Ug"
-    },
-    {
-      "service": "linkedin",
-      "url": "https://www.linkedin.com/in/barancezayirli"
-    },
+  "social": [    
     {
       "service": "twitter",
-      "url": "https://twitter.com/barancezayirli"
-    },
-    {
-      "service": "angellist",
-      "url": "https://angel.co/baran-cezayirli"
+      "url": "https://twitter.com/thluiz"
     },
     {
       "service": "github",
-      "url": "https://github.com/barancezayirli"
-    },
-    {
-      "service": "facebook",
-      "url": "https://www.facebook.com/barancezayirli"
-    },
-    {
-      "service": "instagram",
-      "url": "https://www.instagram.com/barancezayirli"
+      "url": "https://github.com/thluiz"
     }
   ],
-  "role": "Technologist",
-  "projects": [
-    {
-      "name": "Gatsby resume starter",
-      "company": "Open source",
-      "description": "Gatsby resume tailwind is a free starter template with  Netlify CMS implementation. It is easy to customize the design with thanks to tailwind theming capabilities. It uses git as a backend and can be deployed to any static hosting service like Netlify, firebase hosting or Github pages.",
-      "link": "https://github.com/barancezayirli/gatsby-resume-tailwind"
-    }
-  ],
-  "fullname": "Baran Cezayirli"
+  "role": "Full Stack Developer and Tech Leader",
+  "projects": {
+    "title": "Side Projects",
+    "subtitle": "Learn new languages and paradigms usually lead us to new ways to approach and resolve problems. So, I am always open to experiment and build tools to help people around me.",
+    "projects": [
+      {
+        "name": "SIG (Integrated Management System)",
+        "company": "MYVT MI.IM",
+        "start": "11/2018",        
+        "technologies": "Node.js, Angular 2+, MS Sql Server, Firebase",
+        "description": "CRM/ERP system write in TypeScript (back-end) and Angular 2+ (front-end). Using Firebase for sync multiple clients providing real-time updates and communication between MYVTMI.IM branches. They are planning expansion to Angola and Miami so it will become a multinational system.",
+        "links": [
+          { "title": "Visit Back-End", "url": "https://github.com/thluiz/sam-apinode" }
+        ]
+      },
+      {
+        "name": "Genesys - SRD",
+        "company": "Grifo Editorial",
+        "start": "06/2019",
+        "technologies": "Gatsby, React, PWA",
+        "description": "Genesys SRD is a Gatsby PWA with some customizations for the publisher. They need an offline reference guide for their players. It uses a Vercel (now.js) integration to automatize its own publication. The best ideas are the simplest ones.",
+        "links": [
+          { "title": "Visit Source Code", "url": "https://github.com/thluiz/genesys-srd" },
+          { "title": "Visit Site", "url": "https://genesys-srd.grifo.now.sh/" }
+        ]
+      },
+      {
+        "name": "Elug |> RJ",
+        "company": "Meetup group",        
+        "start": "2016",        
+        "end": "more or less active",
+        "technologies": "Elixir, Phoenix Framework, OTP, Web RTC",
+        "description": "For those who don't bother with dynamic languages, Elixir is a invite to 'fall in love'. Builded over the powerfull OTP from Erlang, I believe that every programmers should have take a look in the ideas behind it. I have joined as a organizer in 2016 and made two great events: the 4th, where We builded a realtime Audio and Video chat over WebRTC; and the 6th, where we built a multiplayer starship game.  I was planning to revamp it in 2020 but the pandemic make it be delayed to 2021.",
+        "links": [
+          { "title": "Visit Meet Up", "url": "https://www.meetup.com/elixir-rj/" },
+          { "title": "Visit 6th presentation", "url": "https://github.com/thluiz/sexto_elug_rj" },
+          { "title": "Visit 4th presentation", "url": "https://github.com/thluiz/quartoElugRJ" }
+        ]
+      },
+      {
+        "name": "Jarvis",
+        "company": "White Fox",
+        "start": "09/2018",
+        "end": "12/2019",
+        "technologies": "Microsoft Bot Framework, NodeJs, Typescript, MS Sql Server, LUIS (Language Understanding Service)",
+        "description": "<p class='pb-2'> At White Fox We basically support clients over chat applications, and we have a in house software for billing and planning. It was a natural step to implement a virtual assistant to help us integrate both. Jarvis was a humorous and grumpy Skype chat application wrote in typescript using Microsoft Bot Framework and the Language Understanding Service (to translate users input into intents and actions). </p><p class='pb-2'>His capabilities included search for tasks, projects, registering billing, check team velocity and common repetitive tasks like generate codes and valid documents (CPF/CEPs, CNPJs...). </p><p class='pb-2'>With new versions of Bot Framework, We create a new assistant called Lana on Microsoft Teams with most of Jarvis capabilities, We are planning to integrate her with Azure Devops (for CI/CD) and a service desk system.</p>",
+        "links": [
+          { "title": "Visit Source Code", "url": "https://github.com/thluiz/jarvis-whitefox" }
+        ]        
+      },
+      {
+        "name": "Grammar, Game Gourmet",
+        "company": "Grifo Editorial",
+        "start": "01/2009",
+        "end": "03/2010",
+        "technologies": "Ruby on rails, Elixir, AngularJs, Bootstrap, PostgreSql",
+        "description": "Grammar was a translation and extension system for markdown. Grifo Editoral had a huge amount of text that they develop on their internal wiki (redmine) and they wanted to direct publish it in a modern and more delightful format. Grammar (an Elixir orchestrator) used a microservice to translate the RedCloth markdown (from Redmine) to a more generic implementation that later it translates to a static page (Game Gourmet)."
+      },
+      {
+        "name": ".TV",
+        "company": ".TV",
+        "start": "11/2006",
+        "end": "01/2010",
+        "technologies": "Ruby on Rails, AngularJs, Bootstrap, PostgreSql",
+        "description": "Web channel system. It used a Ruby on Rails application to upload, orchestrate, and encode videos in different formats for the web. The idea was to explore specific niches while granting fully control of content and audience. By the time they started YouTube was not lucrative and It was before his acquisition by google. They discontinued their principal project (Psicologica.TV - a psychology channel), after the YouTube/Facebook expansion. However, <a href='http://yehudim.tv' target='_blank' class='text-secondary-500'>Yehudim.TV</a> (a Jewish channel) still working and they sold <a href='http://itvision.tv' target='_blank' class='text-secondary-500'>ITVision.TV</a> (an IT corporate channel – that now has a more modern version)."        
+      }
+    ]
+  },
+  "fullname": "Thiago Luiz Silva Pereira"
 }

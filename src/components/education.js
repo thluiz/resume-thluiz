@@ -7,9 +7,23 @@ const Education = ({ data }) => (
       data.map(item => (
         <div className="my-2" key={item.degree}>
           <h2 className="item-header text-lg">{item.degree}</h2>
-          <h3 className="item-sub">{item.institution}</h3>
+          { item.subtitle_degree && <h3 className="item-sub">{ item.subtitle_degree }</h3> }
+          <h3 className="item-sub">
+            { (item.institution_url  )
+              ? <a
+                className="mr-2"
+                href={item.institution_url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                { item.institution }
+              </a>
+            : 
+            <span>item.institution</span>            
+          }
+          </h3>
           <p className="text-sm text-neutral-500 font-light">
-            {item.start} - {item.end}
+            {item.start} - {item.end || "Present"}
           </p>
         </div>
       ))}

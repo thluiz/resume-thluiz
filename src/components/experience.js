@@ -10,7 +10,7 @@ const Experience = ({ data }) => (
           <h3 className="item-sub">
             {item.company} | {item.start} - {item.end || 'PRESENT'}
           </h3>
-          <p className="py-6">{item.description}</p>
+          <p className="pt-2" dangerouslySetInnerHTML={{__html: item.description }} ></p>
         </article>
       ))}
   </section>

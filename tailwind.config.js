@@ -3,8 +3,8 @@ const { colors } = require('tailwindcss/defaultTheme');
 module.exports = {
   theme: {
     colors: {
-      primary: colors.teal,
-      secondary: colors.orange,
+      primary: colors.indigo,
+      secondary: colors.blue,
       neutral: colors.gray,
       white: '#FFF',
     },
