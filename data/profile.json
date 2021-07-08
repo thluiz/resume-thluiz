@@ -286,19 +286,35 @@
   ],
   "experience": [
     {
-      "role": "Full Stack developer & Tech Leader",
+      "role": "Full-Stack developer",
+      "company": "Baires Dev",      
+      "description": "Full-Stack developer working with Microsoft technologies (Azure and .Net), and VueJs",
+      "achievements": { 
+        "title": "Some achievements:",
+        "list": [
+        "I've migrated old legacy applications to be microservice solutions with Azure Functions in record time;",
+        "Successfully introduce a TDD culture - Hundreds of tests written covering critical paths and securing or deployments;",        
+        "Make the API's clients generation for Javascript fully automated (with OpenAPI and DevOps), reducing the time to front-end adopt changes;"
+        ]
+      },
+      "start": "03/2021",
+      "end": ""
+    },
+    {
+      "role": "Full-Stack developer & Tech Leader",
       "company": "White Fox",      
-      "description": "Full Stack developer working with Microsoft technologies (C#, WCF, WSSF, Nhibernate) on the back-end and Angular/Javascript/Xslt on the front-end. Also Working as tech leader and solutions architect using agile methodologies (Scrum, TDD, XP etc) for B&T (one of the greatest money exchange broker here in Brazil).",
+      "description": "Full-Stack developer working with Microsoft technologies (C#, WCF, WSSF, Nhibernate) on the back-end and Angular/Javascript/Xslt on the front-end. Also Working as a tech leader and solutions architect using agile methodologies (Scrum, TDD, XP etc.) for B&T (one of the most outstanding money exchange brokers here in Brazil).",
       "achievements": { 
         "title": "Some of our team achievements over this decade:",
         "list": [
         "Implemented a test culture (TDD) mitigating errors in deployments and eliminating regressions and bugs in production;",
         "Automated deployments with Azure Devops and management activities with Microsoft Bot Framework;",
-        "Maintained and evolved old monoliths, dividing then over microservices communicating through Sql/Azure ServiceBroker in order to escalate from dozens to thousands of requests per minute.",        
+        "Maintained and evolved old monoliths, dividing them over microservices communicating through Sql/Azure ServiceBroker to escalate from dozens to thousands of requests per minute.",        
         "Integrated with different institutions like Bacen STA (Brazil's Central Bank messaging system), Receita Federal (Brazil's Federal Reserve), Brasil Pré-Pagos (Prepaid multi-currency Card) etc;",
         "Integrated payments and receiving from electronic transfers in Brazil (TED);",
         "Integrated with cryptocurrencies (Bitcoin) for payment and receiving in Brazilian Real;",
-        "Ported ActiveWriter to Visual Studio 2017 and 2019 so the team can work with modern setup even in legacy Nhibernate applications."
+        "Ported ActiveWriter to Visual Studio 2017 and 2019 so the team can work with modern setup even in legacy Nhibernate applications.",
+        "From 03/2021, I've started work as a Consultant for critical solutions and specifications;"
         ]
       },
       "start": "11/2009",
@@ -307,12 +323,12 @@
     {
       "role": "Biztalk and Sharepoint Consultant",
       "company": "Ecorp",
-      "description": "Senior consultant and developer in Microsoft BizTalk, SharePoint, SQL Server, ASP.NET working directly to customers from Rio de Janeiro (Light and L'Oreal) performing technical management, gathering requirements, application development and SAP integrations maintenance (XI and PI modules).",
+      "description": "Senior consultant and developer in Microsoft BizTalk, SharePoint, SQL Server, ASP.NET working directly to customers from Rio de Janeiro (Light and L'Oreal) performing technical management, gathering requirements, application development, and SAP integrations maintenance (XI and PI modules).",
       "achievements": { 
         "title": "Key Achievements:",
         "list": [
         "Implemented Biztalk integration between oracle problem system with SAP portable mobile gateway. This integration addressed all requests for external support from Light customers in Rio de Janeiro;",        
-        "Automated the publishing of Light KPIs from Excel direct in to the company's internal Sharepoint."
+        "Automated the publishing of Light KPIs from Excel direct into the company's internal Sharepoint."
         ]
       },
       "start": "01/2009",
@@ -335,14 +351,14 @@
     {
       "role": "Senior Developer & Team Leader",
       "company": "Always Web",
-      "description": "Programming in several languages (C#, VB, PHP, Javascript, ASP and even ActionScript) for Web and Desktop, database management (SQL SERVER, MYSQL and Oracle). Also working as a Project Manager and Team Leader creating functional and technical specification for two teams between Rio de Janeiro and São Paulo. Our principal clients were Aliança do Brasil (Insurance company of Banco do Brasil), Cultura Inglesa (English School) and Thomson Edu.",
+      "description": "Programming in several languages (C#, VB, PHP, Javascript, ASP and even ActionScript) for Web and Desktop, database management (SQL SERVER, MYSQL and Oracle). Also working as a Project Manager and Team Leader creating functional and technical specifications for two teams between Rio de Janeiro and São Paulo. Our principal clients were Aliança do Brasil (Insurance company of Banco do Brasil), Cultura Inglesa (English School) and Thomson Edu.",
       "start": "06/2006",
       "end": "11/2007"
     },
     {
       "role": "Web Developer",
       "company": "AG Sistemas",
-      "description": "Web Developer working with PHP and ASP classic. Developing and maintaining the Apligraf´s CRM/ERP for StockMarket. For Digipix, We developed their photographic revelation service for companies. This service is still in use in brazilian e-commerces like B2W (Americanas.com, Submarino, Shoptime), Saraiva, Extra etc.",
+      "description": "Web Developer working with PHP and ASP classic, developing and maintaining the Apligraf´s CRM/ERP for StockMarket. For Digipix, We developed their photographic revelation service for companies. This service is still in use in Brazilian e-commerces like B2W (Americanas.com, Submarino, Shoptime), Saraiva, Extra etc.",
       "start": "11/2004",
       "end": "06/2006"
     }    
@@ -410,14 +426,6 @@
         "links": [
           { "title": "Visit Source Code", "url": "https://github.com/thluiz/jarvis-whitefox" }
         ]        
-      },
-      {
-        "name": "Grammar, Game Gourmet",
-        "company": "Grifo Editorial",
-        "start": "01/2009",
-        "end": "03/2010",
-        "technologies": "Ruby on rails, Elixir, AngularJs, Bootstrap, PostgreSql",
-        "description": "Grammar was a translation and extension system for markdown. Grifo Editoral had a huge amount of text that they develop on their internal wiki (redmine) and they wanted to direct publish it in a modern and more delightful format. Grammar (an Elixir orchestrator) used a microservice to translate the RedCloth markdown (from Redmine) to a more generic implementation that later it translates to a static page (Game Gourmet)."
       },
       {
         "name": ".TV",
