@@ -7,85 +7,64 @@
   "skills": [
     {
       "title": "General",
-      "type": "percent",
+      "type": "tag",
       "subskills": [        
         {
-          "name": "Backend Development",
-          "percent": 93
+          "name": "Backend Development"          
         },
         {
-          "name": "Frontend Development",
-          "percent": 85
+          "name": "Mentoring"
         },
         {
-          "name": "Architecture",
-          "percent": 79
+          "name": "Frontend Development"
         },
         {
-          "name": "Dev Ops",
-          "percent": 55
+          "name": "Architecture"
         },
         {
-          "name": "Project Management",
-          "percent": 62
+          "name": "DevOps"
         },
         {
-          "name": "Artificial Intelligence",
-          "percent": 52
+          "name": "Project Management"
         },
         {
-          "name": "Data Science",
-          "percent": 45
-        },
-        {
-          "name": "UX",
-          "percent": 47
+          "name": "Tech Lead"
         }
       ]
     },
     {
       "title": "Languages",
-      "type": "percent",
+      "type": "tag",
       "subskills": [
         {
-          "name": "C#",
-          "percent": 96
+          "name": "C#"
         },
         {
-          "name": "Javascript",
-          "percent": 96
+          "name": "Javascript"
         },
         {
-          "name": "Typescript",
-          "percent": 84
+          "name": "Typescript"
         },
         {
-          "name": "F#",
-          "percent": 65
+          "name": "F#"
         },
         {
-          "name": "Powershell",
-          "percent": 70
+          "name": "Powershell"
         },
         {
-          "name": "Elixir",
-          "percent": 60
+          "name": "Elixir"
         },
         {
-          "name": "Ruby",
-          "percent": 55
+          "name": "Ruby"
         },
         {
-          "name": "Dart",
-          "percent": 45
+          "name": "Dart"
         },
         {
-          "name": "CSS",
-          "percent": 55
+          "name": "CSS"
         },
         {
-          "name": "Xml/Xslt",
-          "percent": 81
+          "name": "Xml/Xslt"
         }
       ]
     },
@@ -143,6 +122,9 @@
         },
         {
           "name": "Xamarin"
+        },
+        {
+          "name": "Blazor"
         }
       ]
     },
@@ -185,6 +167,12 @@
         },
         {
           "name": "Heroku"
+        },
+        {
+          "name": "Digital Ocean"
+        },
+        {
+          "name": "Github (actions)"
         }
       ]
     },
@@ -251,9 +239,6 @@
         },
         {
           "name": "Drawing"
-        },
-        {
-          "name": "Cycling"
         }
       ]
     }
@@ -286,15 +271,16 @@
   ],
   "experience": [
     {
-      "role": "Full-Stack developer",
+      "role": "Full-Stack developer & Mentor",
       "company": "Baires Dev",      
-      "description": "Full-Stack developer working with Microsoft technologies (Azure and .Net), and VueJs",
+      "description": "Full-Stack Developer and Mentor working with Microsoft technologies (Azure and .Net), Angular, and VueJs",
       "achievements": { 
         "title": "Some achievements:",
         "list": [
         "I've migrated old legacy applications to be microservice solutions with Azure Functions in record time;",
         "Successfully introduce a TDD culture - Hundreds of tests written covering critical paths and securing or deployments;",        
-        "Make the API's clients generation for Javascript fully automated (with OpenAPI and DevOps), reducing the time to front-end adopt changes;"
+        "Make the API's clients generation for Javascript fully automated (with OpenAPI and DevOps), reducing the time to front-end adopt changes;",
+        "Mentoring developers increasing team productive in multiple clients;"
         ]
       },
       "start": "03/2021",
