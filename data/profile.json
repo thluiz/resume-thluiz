@@ -280,7 +280,7 @@
         "I've migrated old legacy applications to be microservice solutions with Azure Functions in record time;",
         "Successfully introduce a TDD culture - Hundreds of tests written covering critical paths and securing or deployments;",        
         "Make the API's clients generation for Javascript fully automated (with OpenAPI and DevOps), reducing the time to front-end adopt changes;",
-        "Mentoring developers increasing team productive in multiple clients;"
+        "Mentoring developers to increase teams productivity in multiple clients;"
         ]
       },
       "start": "03/2021",
