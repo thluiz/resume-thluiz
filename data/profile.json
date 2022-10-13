@@ -22,13 +22,13 @@
           "name": "Architecture"
         },
         {
+          "name": "Tech Lead"
+        },
+        {
           "name": "DevOps"
         },
         {
           "name": "Project Management"
-        },
-        {
-          "name": "Tech Lead"
         }
       ]
     },
@@ -224,6 +224,9 @@
         },
         {
           "name": "Kanban"
+        },
+        {
+          "name": "Scrum"
         }
       ]
     },
@@ -243,7 +246,7 @@
       ]
     }
   ],
-  "summary": "I am a self-taught full stack developer who can quickly adapt to new circumstances. With a multidisciplinary skill set acquired over 15+ years in various domains, I make fast and solid web applications to solve problems while maintaining deadlines and budgets. ",
+  "summary": "Software Developer, Tech Lead and Mentor: .Net (C#/F#), Sql Server, Node Js, Angular, GatsbyJs, Azure, Devops, Microservices, Serverless, Architecture, Tests, TDD, DDD",
   "education": [
     {
       "institution": "Moy Yat Ving Tsun Martial Intelligence",
@@ -271,9 +274,9 @@
   ],
   "experience": [
     {
-      "role": "Full-Stack developer & Mentor",
+      "role": "Tech Lead, Full-Stack developer, and Mentor",
       "company": "Baires Dev",      
-      "description": "Full-Stack Developer and Mentor working with Microsoft technologies (Azure and .Net), Angular, and VueJs",
+      "description": "Tech Lead, Full-Stack Developer, and Mentor working with Microsoft technologies (Azure, .Net, and SQL Server), Angular, and VueJs",
       "achievements": { 
         "title": "Some achievements:",
         "list": [
