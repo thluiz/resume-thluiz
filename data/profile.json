@@ -246,7 +246,7 @@
       ]
     }
   ],
-  "summary": "Software Developer, Tech Lead and Mentor: .Net (C#/F#), Sql Server, Node Js, Angular, GatsbyJs, Azure, Devops, Microservices, Serverless, Architecture, Tests, TDD, DDD",
+  "summary": "Software Developer, Tech Lead and Mentor: .Net (C#/F#), Sql Server, Node Js, Angular, React, GatsbyJs, Azure, Devops, Microservices, Serverless, Architecture, Tests, TDD, DDD",
   "education": [
     {
       "institution": "Moy Yat Ving Tsun Martial Intelligence",
@@ -276,7 +276,7 @@
     {
       "role": "Tech Lead, Full-Stack developer, and Mentor",
       "company": "Baires Dev",      
-      "description": "Tech Lead, Full-Stack Developer, and Mentor working with Microsoft technologies (Azure, .Net, and SQL Server), Angular, and VueJs",
+      "description": "Tech Lead, Full-Stack Developer, and Mentor working with Microsoft technologies (Azure, .Net, and SQL Server), Angular, React, and VueJs",
       "achievements": { 
         "title": "Some achievements:",
         "list": [
@@ -301,9 +301,8 @@
         "Automated deployments with Azure Devops and management activities with Microsoft Bot Framework;",
         "Maintained and evolved old monoliths, dividing them over microservices communicating through Sql/Azure ServiceBroker to escalate from dozens to thousands of requests per minute.",        
         "Integrated with different institutions like Bacen STA (Brazil's Central Bank messaging system), Receita Federal (Brazil's Federal Reserve), Brasil Pré-Pagos (Prepaid multi-currency Card) etc;",
-        "Integrated payments and receiving from electronic transfers in Brazil (TED);",
-        "Integrated with cryptocurrencies (Bitcoin) for payment and receiving in Brazilian Real;",
-        "Ported ActiveWriter to Visual Studio 2017 and 2019 so the team can work with modern setup even in legacy Nhibernate applications.",
+        "Integrated payments and receiving from electronic transfers in Brazil (TED and PIX) and cryptocurrencies (Bitcoin);",
+        "Ported ActiveWriter to Visual Studio 2017 and 2019 so the team can work with modern setup even in legacy Nhibernate applications;",
         "From 03/2021, I've started work as a Consultant for critical solutions and specifications;"
         ]
       },
@@ -410,8 +409,7 @@
         "technologies": "Microsoft Bot Framework, NodeJs, Typescript, MS Sql Server, LUIS (Language Understanding Service)",
         "descriptions": [
           "At White Fox, we support clients over chat applications, and we have an in house software for billing and planning. It was a natural step to implement a virtual assistant to help us integrate both. Jarvis was a humorous and grumpy Skype chat application wrote in typescript using Microsoft Bot Framework and the Language Understanding Service (to translate users input into intents and actions).",
-          "His capabilities included search for tasks, projects, registering billing, check team velocity and common repetitive tasks like generate codes and valid documents (CPF/CEPs, CNPJs...).", 
-          "With new versions of Bot Framework, We create a new assistant called Lana on Microsoft Teams with most of Jarvis capabilities; we are planning to integrate her with Azure Devops (for CI/CD) and a service desk system."
+          "His capabilities included search for tasks, projects, registering billing, check team velocity and common repetitive tasks like generate codes and valid documents (CPF/CEPs, CNPJs...);"          
         ],
         "links": [
           { "title": "Visit Source Code", "url": "https://github.com/thluiz/jarvis-whitefox" }
