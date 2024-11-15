@@ -297,7 +297,7 @@
         "Mentoring developers to increase productivity in multiple clients;",
         "Handling the technical aspects of the team, including the architecture, the DevOps, and the project management.",
         "Received the R&D Spotlight Award for the last quarter of 2021 on a key player in the hospitality industry.",
-        "Supporting AngularJs to Angular 2+ migration in a critical application for game/team management.",
+        "Supporting AngularJs to Angular 2+ migration in critical applications for game/team management.",
         "Leading migration of Monolith applications to microservices with nodejs, express, and next.js",
         "Configuring Docker (Compose) to enable legacy application maintenance and improviments",
         "Using Kubernetes/Argos to scale up dockerized applications;"
@@ -319,6 +319,7 @@
         "Integrated with different institutions like Bacen STA (Brazil's Central Bank messaging system), Receita Federal (Brazil's Federal Reserve), Brasil Pré-Pagos (Prepaid multi-currency Card) etc;",
         "Integrated payments and receiving from electronic transfers in Brazil (TED and PIX) and cryptocurrencies (Bitcoin);",
         "Ported ActiveWriter to Visual Studio 2017 and 2019 so the team can work with modern setup even in legacy Nhibernate applications;",
+        "Ensure MonoRepos and Modular Monolithic applications work after 15 years, across multiple .Net versions, delivering value and customers happiness,"
         "From 03/2021, I've started work as a Consultant for critical solutions and specifications;"
         ]
       },
