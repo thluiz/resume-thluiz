@@ -29,6 +29,9 @@
         },
         {
           "name": "Project Management"
+        },
+        {
+          "name": "Fullstack Development"
         }
       ]
     },
@@ -246,19 +249,27 @@
       ]
     }
   ],
-  "summary": "Software Developer, Tech Lead and Mentor: .Net (C#/F#), Sql Server, Node Js, Angular, React, GatsbyJs, Azure, Devops, Microservices, Serverless, Architecture, Tests, TDD, DDD",
+  "summary": "Software Developer, Tech Lead and Mentor: .Net (C#/F#), Sql Server, NodeJs, Angular 2+, React, GatsbyJs, Azure, Devops, Microservices, Serverless, Architecture, Tests, TDD, DDD",
   "education": [
     {
-      "institution": "Moy Yat Ving Tsun Martial Intelligence",
-      "institution_url": "http://myvt.org/",
-      "degree": "Final Superior Level",
-      "subtitle_degree": "of Martial Intelligence Program",
-      "start": "11/2014",
-      "end": ""
+      "institution": "UCS - Cruzeiro do Sul University",
+      "institution_url": "https://www.cruzeirodosul.edu.br/",
+      "degree": "Philosophy",
+      "subtitle_degree": "Bachelor of Philosophy, Ethics, Politics, and Economics",
+      "start": "01/2023",
+      "end": "06/2026"
     },
     {
       "institution": "Moy Yat Ving Tsun Martial Intelligence",
-      "institution_url": "http://myvt.org/",
+      "institution_url": "https://www.myvt-rio.org/",
+      "degree": "Final Superior Level",
+      "subtitle_degree": "of Martial Intelligence Program",
+      "start": "11/2014",
+      "end": "08/2023"
+    },
+    {
+      "institution": "Moy Yat Ving Tsun Martial Intelligence",
+      "institution_url": "https://www.myvt-rio.org/",
       "degree": "Basic to Medial Superior Level",
       "subtitle_degree": "of Martial Intelligence Program",
       "start": "10/2005",
@@ -284,7 +295,10 @@
         "Successfully introduce a TDD culture - Hundreds of tests written covering critical paths and securing or deployments;",        
         "Make the API's clients generation for Javascript fully automated (with OpenAPI and DevOps), reducing the time to front-end adopt changes;",
         "Mentoring developers to increase productivity in multiple clients;",
-        "Received the R&D Spotlight Award for the last quarter of 2021 on a key player in the hospitality industry."
+        "Handling the technical aspects of the team, including the architecture, the DevOps, and the project management.",
+        "Received the R&D Spotlight Award for the last quarter of 2021 on a key player in the hospitality industry.",
+        "Supporting AngularJs to Angular 2+ migration in a critical application for game/team management.",
+        "Leading migration of Monolith applications to microservices with nodejs, express, and next.js"
         ]
       },
       "start": "03/2021",
