@@ -287,7 +287,7 @@
     {
       "role": "Tech Lead, Full-Stack developer, and Mentor",
       "company": "Baires Dev",      
-      "description": "Tech Lead, Full-Stack Developer, and Mentor working with Microsoft technologies (Azure, .Net, and SQL Server), Angular, React, and VueJs",
+      "description": "Tech Lead, Full-Stack Developer, and Mentor working with Microsoft technologies (Azure, .Net, and SQL Server), Node.Js, Angular, React, and VueJs",
       "achievements": { 
         "title": "Some achievements:",
         "list": [
@@ -298,7 +298,7 @@
         "Handling the technical aspects of the team, including the architecture, the DevOps, and the project management.",
         "Received the R&D Spotlight Award for the last quarter of 2021 on a key player in the hospitality industry.",
         "Supporting AngularJs to Angular 2+ migration in critical applications for game/team management.",
-        "Leading migration of Monolith applications to microservices with nodejs, express, and next.js",
+        "Leading migration of Monolith applications to microservices with NodeJs, Express, and Next.js",
         "Configuring Docker (Compose) to enable legacy application maintenance and improviments",
         "Using Kubernetes/Argos to scale up dockerized applications;"
         ]
@@ -309,7 +309,7 @@
     {
       "role": "Full-Stack developer & Tech Leader",
       "company": "White Fox",      
-      "description": "Full-Stack developer working with Microsoft technologies (C#, WCF, WSSF, Nhibernate) on the back-end and Angular/Javascript/Xslt on the front-end. Also Working as a tech leader and solutions architect using agile methodologies (Scrum, TDD, XP etc.) for B&T (one of the most outstanding money exchange brokers here in Brazil).",
+      "description": "Full-Stack developer working with Microsoft technologies (C#, WCF, WSSF, Nhibernate) and Node.Js on the back-end and Angular 2+/React/Javascript on the front-end. Also Working as a tech leader and solutions architect using agile methodologies (Scrum, TDD, XP etc.) for B&T (one of the most outstanding money exchange brokers here in Brazil).",
       "achievements": { 
         "title": "Some of our team achievements over this decade:",
         "list": [
@@ -319,7 +319,7 @@
         "Integrated with different institutions like Bacen STA (Brazil's Central Bank messaging system), Receita Federal (Brazil's Federal Reserve), Brasil Pré-Pagos (Prepaid multi-currency Card) etc;",
         "Integrated payments and receiving from electronic transfers in Brazil (TED and PIX) and cryptocurrencies (Bitcoin);",
         "Ported ActiveWriter to Visual Studio 2017 and 2019 so the team can work with modern setup even in legacy Nhibernate applications;",
-        "Ensure MonoRepos and Modular Monolithic applications work after 15 years, across multiple .Net versions, delivering value and customers happiness,", 
+        "Ensure MonoRepos and Modular Monolithic applications work after 15 years, across multiple .Net versions, delivering value and customers happiness;", 
         "From 03/2021, I've started work as a Consultant for critical solutions and specifications;"
         ]
       },
