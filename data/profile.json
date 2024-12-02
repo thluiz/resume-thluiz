@@ -292,15 +292,15 @@
         "title": "Some achievements:",
         "list": [
         "I've migrated old legacy applications to be microservice solutions with Azure Functions in record time;",
-        "Successfully introduce a TDD culture - Hundreds of tests written covering critical paths and securing or deployments;",        
-        "Make the API's clients generation for Javascript fully automated (with OpenAPI and DevOps), reducing the time to front-end adopt changes;",
-        "Mentoring developers to increase productivity in multiple clients;",
+        "Successfully introduced a TDD culture - Hundreds of tests written covering critical paths and securing or deployments;",        
+        "Make the API's clients generation for Javascript fully automated (with OpenAPI and DevOps), reducing the time to front-end adopt changes;",        
         "Handling the technical aspects of the team, including the architecture, the DevOps, and the project management.",
         "Received the R&D Spotlight Award for the last quarter of 2021 on a key player in the hospitality industry.",
         "Supporting AngularJs to Angular 2+ migration in critical applications for game/team management.",
         "Leading migration of Monolith applications to microservices with NodeJs, Express, and Next.js",
         "Configuring Docker (Compose) to enable legacy application maintenance and improviments",
-        "Using Kubernetes/Argos to scale up dockerized applications;"
+        "Using Kubernetes/Argos to automatically scale up dockerized applications;",
+        "Mentoring developers to increase productivity in multiple clients;"
         ]
       },
       "start": "03/2021",
