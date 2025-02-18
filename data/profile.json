@@ -287,7 +287,7 @@
     {
       "role": "Tech Lead, Full-Stack developer, and Mentor",
       "company": "Baires Dev",      
-      "description": "Tech Lead, Full-Stack Developer, and Mentor working with Microsoft technologies (Azure, .Net, and SQL Server), Node.Js, Angular, React, and VueJs",
+      "description": "Tech Lead, Full-Stack Developer, and Mentor working with Microsoft technologies (Azure, .Net, and SQL Server), Go, Node.Js, Angular, React, and VueJs",
       "achievements": { 
         "title": "Some achievements:",
         "list": [
@@ -315,12 +315,15 @@
         "list": [
         "Implemented a test culture (TDD) mitigating errors in deployments and eliminating regressions and bugs in production;",
         "Automated deployments with Azure Devops and management activities with Microsoft Bot Framework;",
-        "Maintained and evolved old monoliths, dividing them over microservices communicating through Sql/Azure ServiceBroker to escalate from dozens to thousands of requests per minute.",        
-        "Integrated with different institutions like Bacen STA (Brazil's Central Bank messaging system), Receita Federal (Brazil's Federal Reserve), Brasil Pré-Pagos (Prepaid multi-currency Card) etc;",
-        "Integrated payments and receiving from electronic transfers in Brazil (TED and PIX) and cryptocurrencies (Bitcoin);",
-        "Ported ActiveWriter to Visual Studio 2017 and 2019 so the team can work with modern setup even in legacy Nhibernate applications;",
-        "Ensure MonoRepos and Modular Monolithic applications work after 15 years, across multiple .Net versions, delivering value and customers happiness;", 
-        "From 03/2021, I've started work as a Consultant for critical solutions and specifications;"
+        "Maintained and evolved old monoliths, dividing them into microservices communicating through Sql/Azure ServiceBroker to escalate from dozens to thousands of requests per minute.",        
+        "Integrated with different institutions like Bacen STA (Brazil's Central Bank messaging system), Receita Federal (Brazil's Federal Revenue Service), Brasil Pré-Pagos (Prepaid multi-currency Card) etc;",
+        "Integrated payments and receipts from electronic transfers in Brazil (TED and PIX) and cryptocurrencies (Bitcoin);",
+        "Ported ActiveWriter to Visual Studio 2017, 2019, and 2022 so the team can work with a modern setup even in legacy NHibernate applications;",
+        "Ensured MonoRepos and Modular Monolithic applications work after 20 years, across multiple .Net versions, delivering value and customer happiness;", 
+        "Implemented cross-domain libraries using F# to ensure encapsulation and implement the right DDD abstractions;",
+        "Migrated internal scheduling System to F# and Azure Functions, reducing the cost of maintenance and increasing the performance;",
+        "Taking advance of F# expressiveness and Elegance enhanced the performace and maintanability of complex mathematical calculations;",
+        "Since 03/2021, I've been working as a consultant for critical solutions and specifications;"
         ]
       },
       "start": "11/2009",
