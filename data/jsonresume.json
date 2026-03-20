@@ -20,9 +20,9 @@
         "url": "https://github.com/thluiz"
       },
       {
-        "network": "Twitter",
+        "network": "LinkedIn",
         "username": "thluiz",
-        "url": "https://twitter.com/thluiz"
+        "url": "https://www.linkedin.com/in/thluiz"
       }
     ]
   },
@@ -110,6 +110,14 @@
       "endDate": "2026-06-01"
     },
     {
+      "institution": "Instituto Julio Camacho",
+      "url": "https://juliocamacho.org",
+      "area": "Ving Tsun Kung Fu",
+      "studyType": "Master",
+      "startDate": "2005-01-01",
+      "endDate": "2024-01-01"
+    },
+    {
       "institution": "UERJ (Rio de Janeiro State University)",
       "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro_State_University",
       "area": "Chemical Engineering",
@@ -129,32 +137,32 @@
   "skills": [
     {
       "name": "Backend Development",
-      "level": "Senior",
+      "level": "Master",
       "keywords": ["C#", "F#", "Node.js", "Express", ".Net Core", "ASP.Net MVC", "Elixir", "Phoenix Framework", "Ruby on Rails"]
     },
     {
       "name": "Frontend Development",
-      "level": "Senior",
+      "level": "Master",
       "keywords": ["JavaScript", "TypeScript", "Angular 2+", "React", "Gatsby", "TailwindCSS", "Bootstrap", "AngularJS"]
     },
     {
       "name": "Cloud & DevOps",
-      "level": "Senior",
+      "level": "Master",
       "keywords": ["Azure", "Azure Functions", "Azure DevOps", "Docker", "Kubernetes", "Argo CD", "GitHub Actions", "Heroku", "Digital Ocean"]
     },
     {
       "name": "Databases",
-      "level": "Senior",
+      "level": "Master",
       "keywords": ["SQL Server", "PostgreSQL", "MySQL", "CosmoDB", "Firebase", "MongoDB", "Redis"]
     },
     {
-      "name": "Architecture & Methodologies",
-      "level": "Senior",
+      "name": "Methodologies",
+      "level": "Master",
       "keywords": ["Microservices", "Serverless", "Event-Driven Architecture", "DDD", "TDD", "Scrum", "Kanban", "XP"]
     },
     {
       "name": "Leadership",
-      "level": "Senior",
+      "level": "Master",
       "keywords": ["Tech Lead", "Mentoring", "Project Management", "Architecture"]
     }
   ],
@@ -165,13 +173,17 @@
     },
     {
       "language": "English",
-      "fluency": "Professional working proficiency"
+      "fluency": "Full Proficiency"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Intermediate"
     }
   ],
   "interests": [
     {
       "name": "Martial Arts",
-      "keywords": ["Ving Tsun Kung Fu Master (25 years of practice)"]
+      "keywords": ["Ving Tsun Kung Fu Master"]
     },
     {
       "name": "Arts",
@@ -211,6 +223,7 @@
     {
       "name": "Elug |> RJ — Elixir Meetup",
       "startDate": "2016-01-01",
+      "endDate": "2020-01-01",
       "description": "Co-organizer of the Rio de Janeiro Elixir meetup group. Led hands-on events building a real-time WebRTC audio/video chat and a multiplayer starship game.",
       "highlights": [
         "Real-time WebRTC audio/video chat",
