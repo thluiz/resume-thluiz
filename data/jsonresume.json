@@ -1,0 +1,222 @@
+{
+  "basics": {
+    "name": "Thiago Luiz Silva Pereira",
+    "label": "Full Stack Developer and Tech Leader",
+    "image": "https://resume.thluiz.com/profile-podcast.png",
+    "picture": "https://resume.thluiz.com/profile-podcast.png",
+    "email": "contact@thluiz.com",
+    "phone": "+55 021 97627 8160",
+    "url": "https://resume.thluiz.com",
+    "summary": "Software Developer, Tech Lead and Mentor with 20+ years of experience. Specialized in .Net (C#/F#), Node.js, Angular 2+, React, Azure, Microservices, Serverless Architecture, TDD, DDD, and AI Chat Bots/Agents. Proven track record of scaling systems from dozens to thousands of requests per minute, leading teams, mentoring developers, and building products from scratch.",
+    "location": {
+      "city": "Rio de Janeiro",
+      "countryCode": "BR",
+      "region": "Rio de Janeiro"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "thluiz",
+        "url": "https://github.com/thluiz"
+      },
+      {
+        "network": "Twitter",
+        "username": "thluiz",
+        "url": "https://twitter.com/thluiz"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "BairesDev",
+      "position": "Tech Lead, Full-Stack Developer, and Mentor",
+      "startDate": "2021-03-01",
+      "endDate": "",
+      "summary": "Tech Lead, Full-Stack Developer, and Mentor working with Microsoft technologies (Azure, .Net, SQL Server), Go, Node.js, Angular, React, and Vue.js.",
+      "highlights": [
+        "Migrated legacy applications to microservice solutions with Azure Functions in record time",
+        "Introduced TDD culture — hundreds of tests covering critical paths, securing deployments",
+        "Automated API client generation for JavaScript with OpenAPI and DevOps, reducing frontend adoption time",
+        "Received R&D Spotlight Award for Q4 2021 at a key player in the hospitality industry",
+        "Led migration of monolith applications to microservices with Node.js, Express, and Next.js",
+        "Used Kubernetes/Argo CD to automatically scale dockerized applications",
+        "Configured Docker Compose to enable legacy application maintenance and improvements",
+        "Supported AngularJS to Angular 2+ migration in critical game/team management applications",
+        "Mentored developers to increase productivity across multiple clients"
+      ]
+    },
+    {
+      "name": "White Fox (B&T)",
+      "position": "Full-Stack Developer & Tech Leader",
+      "startDate": "2009-11-01",
+      "endDate": "2021-03-01",
+      "summary": "Full-Stack developer and tech leader for one of Brazil's most outstanding money exchange brokers. Worked with C#, F#, WCF, NHibernate, Node.js, Angular 2+, and React using agile methodologies (Scrum, TDD, XP).",
+      "highlights": [
+        "Implemented TDD culture, eliminating regressions and bugs in production",
+        "Automated deployments with Azure DevOps and management activities with Microsoft Bot Framework",
+        "Evolved monoliths into microservices via SQL/Azure ServiceBroker, scaling from dozens to thousands of requests per minute",
+        "Integrated with Brazil's Central Bank (Bacen STA), Federal Revenue Service, PIX, and Bitcoin payments",
+        "Implemented cross-domain libraries in F# for proper DDD abstractions and encapsulation",
+        "Migrated internal scheduling system to F# and Azure Functions, reducing maintenance cost and increasing performance",
+        "Ensured MonoRepos and Modular Monolithic applications work across 20 years and multiple .Net versions",
+        "Ported ActiveWriter to Visual Studio 2017, 2019, and 2022 for legacy NHibernate applications",
+        "Since 03/2021, continued as consultant for critical solutions and specifications"
+      ]
+    },
+    {
+      "name": "Ecorp",
+      "position": "BizTalk and SharePoint Consultant",
+      "startDate": "2009-01-01",
+      "endDate": "2009-11-01",
+      "summary": "Senior consultant and developer in Microsoft BizTalk, SharePoint, SQL Server, ASP.NET. Worked directly with Light and L'Oréal performing technical management, requirements gathering, and SAP integrations.",
+      "highlights": [
+        "Implemented BizTalk integration between Oracle problem system and SAP mobile gateway, handling all external support requests for Light customers in Rio de Janeiro",
+        "Automated publishing of Light KPIs from Excel into the company's internal SharePoint"
+      ]
+    },
+    {
+      "name": "Oi - Accenture",
+      "position": "Senior Developer",
+      "startDate": "2007-11-01",
+      "endDate": "2009-01-01",
+      "summary": "Maintenance of CRM/ERP systems for the Oi Tsunami project (SIA) and EPM with C# (ASP.Net and Desktop), SQL Server, WCF, and Oracle.",
+      "highlights": [
+        "Built M.A.R.T — a walkthrough system using external APIs for phone line quality testing that guided call-center operators",
+        "Improved monthly conciliation process (Batimento) performance by 24x — from 12 hours to under 30 minutes"
+      ]
+    },
+    {
+      "name": "Always Web",
+      "position": "Senior Developer & Team Leader",
+      "startDate": "2006-06-01",
+      "endDate": "2007-11-01",
+      "summary": "Programming in C#, VB, PHP, JavaScript, ASP, and ActionScript. Project Manager and Team Leader managing two teams between Rio de Janeiro and São Paulo. Clients: Aliança do Brasil (Banco do Brasil), Cultura Inglesa, Thomson Edu."
+    },
+    {
+      "name": "AG Sistemas",
+      "position": "Web Developer",
+      "startDate": "2004-11-01",
+      "endDate": "2006-06-01",
+      "summary": "Web Developer with PHP and ASP Classic. Developed Apligraf's CRM/ERP for StockMarket and Digipix's photographic revelation service, still used by major Brazilian e-commerces (Americanas.com, Submarino, Shoptime, Saraiva, Extra)."
+    }
+  ],
+  "education": [
+    {
+      "institution": "UCS - Cruzeiro do Sul University",
+      "url": "https://www.cruzeirodosul.edu.br/",
+      "area": "Ethics, Politics, and Economics",
+      "studyType": "Bachelor of Philosophy",
+      "startDate": "2023-01-01",
+      "endDate": "2026-06-01"
+    },
+    {
+      "institution": "UERJ (Rio de Janeiro State University)",
+      "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro_State_University",
+      "area": "Chemical Engineering",
+      "studyType": "Engineering",
+      "startDate": "2003-01-01",
+      "endDate": "2006-01-01"
+    }
+  ],
+  "awards": [
+    {
+      "title": "R&D Spotlight Award",
+      "date": "2021-12-01",
+      "awarder": "BairesDev / Hospitality Industry Client",
+      "summary": "Recognized as a key contributor for outstanding technical leadership and delivery in Q4 2021."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend Development",
+      "level": "Senior",
+      "keywords": ["C#", "F#", "Node.js", "Express", ".Net Core", "ASP.Net MVC", "Elixir", "Phoenix Framework", "Ruby on Rails"]
+    },
+    {
+      "name": "Frontend Development",
+      "level": "Senior",
+      "keywords": ["JavaScript", "TypeScript", "Angular 2+", "React", "Gatsby", "TailwindCSS", "Bootstrap", "AngularJS"]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "level": "Senior",
+      "keywords": ["Azure", "Azure Functions", "Azure DevOps", "Docker", "Kubernetes", "Argo CD", "GitHub Actions", "Heroku", "Digital Ocean"]
+    },
+    {
+      "name": "Databases",
+      "level": "Senior",
+      "keywords": ["SQL Server", "PostgreSQL", "MySQL", "CosmoDB", "Firebase", "MongoDB", "Redis"]
+    },
+    {
+      "name": "Architecture & Methodologies",
+      "level": "Senior",
+      "keywords": ["Microservices", "Serverless", "Event-Driven Architecture", "DDD", "TDD", "Scrum", "Kanban", "XP"]
+    },
+    {
+      "name": "Leadership",
+      "level": "Senior",
+      "keywords": ["Tech Lead", "Mentoring", "Project Management", "Architecture"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Portuguese",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Martial Arts",
+      "keywords": ["Ving Tsun Kung Fu Master (25 years of practice)"]
+    },
+    {
+      "name": "Arts",
+      "keywords": ["Painting", "Drawing"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SIG (Integrated Management System)",
+      "startDate": "2018-11-01",
+      "description": "CRM/ERP system for MYVT MI.IM written in TypeScript (Node.js backend) and Angular 2+ frontend. Uses Firebase for real-time sync across multiple branches, with planned expansion to Angola and Miami.",
+      "highlights": [
+        "Full-stack TypeScript application",
+        "Real-time multi-branch sync with Firebase",
+        "Multinational expansion planned"
+      ],
+      "url": "https://github.com/thluiz/sam-apinode"
+    },
+    {
+      "name": "Jarvis — AI Virtual Assistant",
+      "startDate": "2018-09-01",
+      "endDate": "2022-12-01",
+      "description": "AI chatbot using Microsoft Bot Framework and LUIS (Language Understanding Service) for Skype and Microsoft Teams. Automated scrum master activities, billing, planning, and common tasks.",
+      "highlights": [
+        "Natural language processing with LUIS",
+        "Scrum master automation",
+        "Built with TypeScript and Node.js"
+      ],
+      "url": "https://github.com/thluiz/jarvis-whitefox"
+    },
+    {
+      "name": "Genesys SRD",
+      "startDate": "2019-06-01",
+      "description": "Gatsby PWA for Grifo Editorial — an offline reference guide for tabletop RPG players with automated publication via Vercel.",
+      "url": "https://github.com/thluiz/genesys-srd"
+    },
+    {
+      "name": "Elug |> RJ — Elixir Meetup",
+      "startDate": "2016-01-01",
+      "description": "Co-organizer of the Rio de Janeiro Elixir meetup group. Led hands-on events building a real-time WebRTC audio/video chat and a multiplayer starship game.",
+      "highlights": [
+        "Real-time WebRTC audio/video chat",
+        "Multiplayer game with Elixir/OTP"
+      ],
+      "url": "https://www.meetup.com/elixir-rj/"
+    }
+  ]
+}

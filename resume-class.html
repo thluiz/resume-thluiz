@@ -1,0 +1,610 @@
+<!doctype html>
+<html>
+	<head>
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Thiago Luiz Silva Pereira - CV</title>
+
+	<style>
+	/*! normalize.css 2012-02-07T12:37 UTC - http://github.com/necolas/normalize.css */article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:hover,a:active{outline:0}h1{font-size:2em;margin:.67em 0}h2{font-size:1.5em;margin:.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:.83em;margin:1.67em 0}h6{font-size:.75em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}p,pre{margin:1em 0}pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:75%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
+/* General, overall styling */
+body {
+	background: #F9F9F9;
+	font-size: 0.9em;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 100px;
+}
+
+em {
+	color: #999;
+}
+
+p {
+	line-height: 1.4;
+}
+
+a {
+	color: #31A6D6;
+}
+
+a:visited {
+	color: #3061A5;
+}
+
+a:hover {
+	color: #3061A5;
+}
+
+ul {
+	margin-bottom: 0;
+}
+section {
+	margin-bottom: 2em;
+}
+
+blockquote {
+	margin: 0;
+	margin-bottom: 1em;
+}
+
+/* End general, overall styling */
+
+/* Header name styling */
+
+header {
+	background: #68B6E3;
+	padding: 50px;
+	margin-bottom: 50px;
+}
+
+header h1 {
+	color: #FFFFFF;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+header h2 {
+	color: #F3F3F3;
+	font-size: 1em;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+/* End header name styling */
+
+/* Set width of main body of CV */
+.container {
+	max-width: 700px;
+	padding: 0 50px;
+	margin: 0 auto;
+}
+
+/* End */
+
+/* Styling Basics (Name, Contact, About, Profiles) */
+
+#basics {
+	margin-bottom: 10px;
+	border-top: 1px #E2E2E2 solid;
+	border-bottom: 1px #E2E2E2 solid;
+}
+#basics h3 {
+	margin-top: 1.5em;
+	margin-bottom: 10px;
+}
+#basics .contact strong {
+	line-height: 1.3;
+	float: left;
+	width: 80px;
+}
+
+.contact h3 {
+	padding-bottom: 10px;
+}
+
+.website,
+.email,
+.phone {
+	margin-bottom: 10px;
+	float: left;
+	width: 50%;
+}
+
+.summary {
+	padding-top: 5px;
+	clear: both;
+}
+
+#profiles {
+	overflow: hidden;
+}
+
+#profiles .item {
+	float: left;
+	width: 50%;
+}
+
+.username{
+	margin-top: 10px;
+}
+
+/* End 'Basics' Styling */
+
+/* Work and volunteering experience styling */
+
+.work_date,
+.work_position,
+.work_website,
+.institution,
+.study_date,
+.qualification {
+	margin-bottom: 10px;
+	float: left;
+	width: 30%;
+}
+
+.courses {
+	clear: both;
+}
+
+.dissertation {
+	margin-top: 10px;
+}
+
+#work,
+#volunteer {
+	padding-bottom: 5px;
+	border-bottom: 1px #E2E2E2 solid;
+}
+
+#work .item,
+#volunteer .item {
+	margin: 25px 0;
+}
+
+/* End work and volunteering */
+
+/* Skills, languages, interests and references styling */
+
+#skills {
+	margin-bottom: 10px;
+	border-bottom: 1px #E2E2E2 solid;
+	padding-bottom: 5px;
+}
+
+#skills .item,
+#languages .item {
+	margin: 0 0 25px 0;
+}
+
+#interests .item {
+	margin-bottom: 25px;
+}
+
+#skills {
+	overflow: hidden;
+}
+
+#languages .item,
+#interests .item,
+#skills .item {
+	float: left;
+	width: 50%;
+}
+
+#references,
+#interests {
+	clear: both;
+}
+
+/* End styling */
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header>
+	<h1>Thiago Luiz Silva Pereira</h1>
+	<h2>Full Stack Developer and Tech Leader</h2>
+	</header>
+
+	<div id="content" class="container">
+	<section id="basics">
+		<div class="contact">
+		<h3>Contact</h3>
+		<div class="email">
+			<strong>Email</strong>
+			contact@thluiz.com
+		</div>
+		<div class="phone">
+			<strong>Phone</strong>
+			+55 021 97627 8160
+		</div>
+		</div>
+		<div class="summary">
+			<h3>About</h3>
+			<p>Software Developer, Tech Lead and Mentor with 20+ years of experience. Specialized in .Net (C#/F#), Node.js, Angular 2+, React, Azure, Microservices, Serverless Architecture, TDD, DDD, and AI Chat Bots/Agents. Proven track record of scaling systems from dozens to thousands of requests per minute, leading teams, mentoring developers, and building products from scratch.</p>
+		</div>
+		<section id="profiles">
+			<div class="item">
+				<strong class="network">
+					GitHub
+				</strong>
+				<div class="url">
+					<a href="https://github.com/thluiz">
+						thluiz
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<strong class="network">
+					Twitter
+				</strong>
+				<div class="url">
+					<a href="https://twitter.com/thluiz">
+						thluiz
+					</a>
+				</div>
+			</div>
+		</section>
+	</section>
+
+	<section id="work">
+		<h2>Work</h2>
+		<div class="item">
+			
+			<div class="work_position">
+				Tech Lead, Full-Stack Developer, and Mentor
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2021-03-01
+				</span>
+				<span class="endDate">
+					- Present
+				</span>
+			</div>
+
+
+
+			<div class="summary">
+				<p>Tech Lead, Full-Stack Developer, and Mentor working with Microsoft technologies (Azure, .Net, SQL Server), Go, Node.js, Angular, React, and Vue.js.</p>
+			</div>
+			<ul class="highlights">
+				<li>Migrated legacy applications to microservice solutions with Azure Functions in record time</li>
+				<li>Introduced TDD culture — hundreds of tests covering critical paths, securing deployments</li>
+				<li>Automated API client generation for JavaScript with OpenAPI and DevOps, reducing frontend adoption time</li>
+				<li>Received R&amp;D Spotlight Award for Q4 2021 at a key player in the hospitality industry</li>
+				<li>Led migration of monolith applications to microservices with Node.js, Express, and Next.js</li>
+				<li>Used Kubernetes/Argo CD to automatically scale dockerized applications</li>
+				<li>Configured Docker Compose to enable legacy application maintenance and improvements</li>
+				<li>Supported AngularJS to Angular 2+ migration in critical game/team management applications</li>
+				<li>Mentored developers to increase productivity across multiple clients</li>
+			</ul>
+		</div>
+		<div class="item">
+			
+			<div class="work_position">
+				Full-Stack Developer &amp; Tech Leader
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2009-11-01
+				</span>
+				<span class="endDate">
+					- 2021-03-01
+				</span>
+			</div>
+
+
+
+			<div class="summary">
+				<p>Full-Stack developer and tech leader for one of Brazil&#x27;s most outstanding money exchange brokers. Worked with C#, F#, WCF, NHibernate, Node.js, Angular 2+, and React using agile methodologies (Scrum, TDD, XP).</p>
+			</div>
+			<ul class="highlights">
+				<li>Implemented TDD culture, eliminating regressions and bugs in production</li>
+				<li>Automated deployments with Azure DevOps and management activities with Microsoft Bot Framework</li>
+				<li>Evolved monoliths into microservices via SQL/Azure ServiceBroker, scaling from dozens to thousands of requests per minute</li>
+				<li>Integrated with Brazil&#x27;s Central Bank (Bacen STA), Federal Revenue Service, PIX, and Bitcoin payments</li>
+				<li>Implemented cross-domain libraries in F# for proper DDD abstractions and encapsulation</li>
+				<li>Migrated internal scheduling system to F# and Azure Functions, reducing maintenance cost and increasing performance</li>
+				<li>Ensured MonoRepos and Modular Monolithic applications work across 20 years and multiple .Net versions</li>
+				<li>Ported ActiveWriter to Visual Studio 2017, 2019, and 2022 for legacy NHibernate applications</li>
+				<li>Since 03/2021, continued as consultant for critical solutions and specifications</li>
+			</ul>
+		</div>
+		<div class="item">
+			
+			<div class="work_position">
+				BizTalk and SharePoint Consultant
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2009-01-01
+				</span>
+				<span class="endDate">
+					- 2009-11-01
+				</span>
+			</div>
+
+
+
+			<div class="summary">
+				<p>Senior consultant and developer in Microsoft BizTalk, SharePoint, SQL Server, ASP.NET. Worked directly with Light and L&#x27;Oréal performing technical management, requirements gathering, and SAP integrations.</p>
+			</div>
+			<ul class="highlights">
+				<li>Implemented BizTalk integration between Oracle problem system and SAP mobile gateway, handling all external support requests for Light customers in Rio de Janeiro</li>
+				<li>Automated publishing of Light KPIs from Excel into the company&#x27;s internal SharePoint</li>
+			</ul>
+		</div>
+		<div class="item">
+			
+			<div class="work_position">
+				Senior Developer
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2007-11-01
+				</span>
+				<span class="endDate">
+					- 2009-01-01
+				</span>
+			</div>
+
+
+
+			<div class="summary">
+				<p>Maintenance of CRM/ERP systems for the Oi Tsunami project (SIA) and EPM with C# (ASP.Net and Desktop), SQL Server, WCF, and Oracle.</p>
+			</div>
+			<ul class="highlights">
+				<li>Built M.A.R.T — a walkthrough system using external APIs for phone line quality testing that guided call-center operators</li>
+				<li>Improved monthly conciliation process (Batimento) performance by 24x — from 12 hours to under 30 minutes</li>
+			</ul>
+		</div>
+		<div class="item">
+			
+			<div class="work_position">
+				Senior Developer &amp; Team Leader
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2006-06-01
+				</span>
+				<span class="endDate">
+					- 2007-11-01
+				</span>
+			</div>
+
+
+
+			<div class="summary">
+				<p>Programming in C#, VB, PHP, JavaScript, ASP, and ActionScript. Project Manager and Team Leader managing two teams between Rio de Janeiro and São Paulo. Clients: Aliança do Brasil (Banco do Brasil), Cultura Inglesa, Thomson Edu.</p>
+			</div>
+		</div>
+		<div class="item">
+			
+			<div class="work_position">
+				Web Developer
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2004-11-01
+				</span>
+				<span class="endDate">
+					- 2006-06-01
+				</span>
+			</div>
+
+
+
+			<div class="summary">
+				<p>Web Developer with PHP and ASP Classic. Developed Apligraf&#x27;s CRM/ERP for StockMarket and Digipix&#x27;s photographic revelation service, still used by major Brazilian e-commerces (Americanas.com, Submarino, Shoptime, Saraiva, Extra).</p>
+			</div>
+		</div>
+	</section>
+
+	
+	<section id="education">
+		<h2>Education</h2>
+		<div class="item">
+			
+			<div class="institution">
+				UCS - Cruzeiro do Sul University
+			</div>
+
+			<div class="study_date">
+				<span class="startDate">
+					2023-01-01
+				</span>
+				<span class="endDate">
+					- 2026-06-01
+				</span>
+			</div>
+
+
+
+		</div>
+		<div class="item">
+			
+			<div class="institution">
+				UERJ (Rio de Janeiro State University)
+			</div>
+
+			<div class="study_date">
+				<span class="startDate">
+					2003-01-01
+				</span>
+				<span class="endDate">
+					- 2006-01-01
+				</span>
+			</div>
+
+
+
+		</div>
+	</section>
+	
+	<section id="skills">
+		<h2>Skills</h2>
+		<div class="item">
+			<div class="name">
+				Backend Development
+			</div>
+			<div class="level">
+				<em>Senior</em>
+			</div>
+			<ul class="keywords">
+				<li>C#</li>
+				<li>F#</li>
+				<li>Node.js</li>
+				<li>Express</li>
+				<li>.Net Core</li>
+				<li>ASP.Net MVC</li>
+				<li>Elixir</li>
+				<li>Phoenix Framework</li>
+				<li>Ruby on Rails</li>
+			</ul>
+		</div>
+		<div class="item">
+			<div class="name">
+				Frontend Development
+			</div>
+			<div class="level">
+				<em>Senior</em>
+			</div>
+			<ul class="keywords">
+				<li>JavaScript</li>
+				<li>TypeScript</li>
+				<li>Angular 2+</li>
+				<li>React</li>
+				<li>Gatsby</li>
+				<li>TailwindCSS</li>
+				<li>Bootstrap</li>
+				<li>AngularJS</li>
+			</ul>
+		</div>
+		<div class="item">
+			<div class="name">
+				Cloud &amp; DevOps
+			</div>
+			<div class="level">
+				<em>Senior</em>
+			</div>
+			<ul class="keywords">
+				<li>Azure</li>
+				<li>Azure Functions</li>
+				<li>Azure DevOps</li>
+				<li>Docker</li>
+				<li>Kubernetes</li>
+				<li>Argo CD</li>
+				<li>GitHub Actions</li>
+				<li>Heroku</li>
+				<li>Digital Ocean</li>
+			</ul>
+		</div>
+		<div class="item">
+			<div class="name">
+				Databases
+			</div>
+			<div class="level">
+				<em>Senior</em>
+			</div>
+			<ul class="keywords">
+				<li>SQL Server</li>
+				<li>PostgreSQL</li>
+				<li>MySQL</li>
+				<li>CosmoDB</li>
+				<li>Firebase</li>
+				<li>MongoDB</li>
+				<li>Redis</li>
+			</ul>
+		</div>
+		<div class="item">
+			<div class="name">
+				Architecture &amp; Methodologies
+			</div>
+			<div class="level">
+				<em>Senior</em>
+			</div>
+			<ul class="keywords">
+				<li>Microservices</li>
+				<li>Serverless</li>
+				<li>Event-Driven Architecture</li>
+				<li>DDD</li>
+				<li>TDD</li>
+				<li>Scrum</li>
+				<li>Kanban</li>
+				<li>XP</li>
+			</ul>
+		</div>
+		<div class="item">
+			<div class="name">
+				Leadership
+			</div>
+			<div class="level">
+				<em>Senior</em>
+			</div>
+			<ul class="keywords">
+				<li>Tech Lead</li>
+				<li>Mentoring</li>
+				<li>Project Management</li>
+				<li>Architecture</li>
+			</ul>
+		</div>
+	</section>
+
+	<section id="languages">
+		<h2>Languages</h2>
+		<div class="item">
+			<div class="language">
+				Portuguese
+			</div>
+			<div class="level">
+				<em>Native speaker</em>
+			</div>
+		</div>
+		<div class="item">
+			<div class="language">
+				English
+			</div>
+			<div class="level">
+				<em>Professional working proficiency</em>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests">
+		<h2>Interests</h2>
+		<div class="item">
+			<div class="name">
+				Martial Arts
+			</div>
+			<ul class="keywords">
+				<li>Ving Tsun Kung Fu — Final Superior Level (18 years of practice)</li>
+			</ul>
+		</div>
+		<div class="item">
+			<div class="name">
+				Arts
+			</div>
+			<ul class="keywords">
+				<li>Painting</li>
+				<li>Drawing</li>
+			</ul>
+		</div>
+	</section>
+	
+	
+	</div>
+	</body>
+</html>
