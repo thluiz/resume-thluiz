@@ -6,6 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 
 .autogit
+.claude/settings.local.json
 
 # Runtime data
 pids
