@@ -10,7 +10,7 @@
       "type": "tag",
       "subskills": [
         {
-          "name": "LLM Integration (Claude, GPT, Ollama)"
+          "name": "LLM Integration"
         },
         {
           "name": "AI Agents & Orchestration"
@@ -130,7 +130,13 @@
       "type": "tag",
       "subskills": [
         {
-          "name": "Azure (Functions, Service Bus, DevOps)"
+          "name": "Azure"
+        },
+        {
+          "name": "AWS"
+        },
+        {
+          "name": "GCP"
         },
         {
           "name": "Docker"
