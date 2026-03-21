@@ -381,6 +381,17 @@
         ]
       },
       {
+        "name": "Vida Kung Fu — Podcast",
+        "company": "YouTube",
+        "start": "01/2023",
+        "end": "05/2025",
+        "technologies": "Audio/Video Production, Interviewing, Content Strategy, YouTube",
+        "description": "Host and producer of a martial arts podcast featuring in-depth interviews with masters, grandmasters, and practitioners across multiple Kung Fu lineages. 29 episodes across 3 seasons, including interviews in English and Portuguese. Built and managed the full production pipeline: recording, editing, publishing, and audience engagement.",
+        "links": [
+          { "title": "Visit YouTube Channel", "url": "https://youtube.com/@vidakungfu" }
+        ]
+      },
+      {
         "name": "Elug |> RJ",
         "company": "Meetup group",
         "start": "2016",
