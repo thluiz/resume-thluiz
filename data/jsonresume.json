@@ -234,6 +234,17 @@
       "url": "https://github.com/thluiz/jarvis-whitefox"
     },
     {
+      "name": "Vida Kung Fu — Podcast",
+      "startDate": "2023-01-01",
+      "endDate": "2025-05-01",
+      "description": "Host and producer of a martial arts podcast featuring in-depth interviews with masters, grandmasters, and practitioners across multiple Kung Fu lineages. 29 episodes across 3 seasons.",
+      "highlights": [
+        "29 episodes across 3 seasons with interviews in English and Portuguese",
+        "Full production pipeline: recording, editing, publishing, audience engagement"
+      ],
+      "url": "https://youtube.com/@vidakungfu"
+    },
+    {
       "name": "Elug |> RJ — Elixir Meetup",
       "startDate": "2016-01-01",
       "description": "Co-organizer of Rio de Janeiro's Elixir meetup. Led hands-on events building real-time distributed systems including a WebRTC audio/video chat and a multiplayer starship game using OTP supervision trees.",
