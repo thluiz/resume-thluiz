@@ -1,37 +1,64 @@
 {
   "contact": {
     "phone": "+55 021 97627 8160",
-    "email": "contact@thluiz.com",    
+    "email": "contact@thluiz.com",
     "location": "Rio de Janeiro, Brazil"
   },
   "skills": [
     {
-      "title": "General",
+      "title": "AI & Intelligent Systems",
       "type": "tag",
-      "subskills": [        
+      "subskills": [
         {
-          "name": "Backend Development"          
+          "name": "LLM Integration (Claude, GPT, Ollama)"
         },
         {
-          "name": "Mentoring"
+          "name": "AI Agents & Orchestration"
         },
         {
-          "name": "Frontend Development"
+          "name": "RAG"
         },
         {
-          "name": "Architecture"
+          "name": "Prompt Engineering"
         },
         {
-          "name": "Tech Lead"
+          "name": "AI Pipeline Design"
         },
         {
-          "name": "DevOps"
+          "name": "MCP (Model Context Protocol)"
         },
         {
-          "name": "Project Management"
+          "name": "NLU/Intent Recognition"
         },
         {
-          "name": "Fullstack Development"
+          "name": "AI-Augmented Development"
+        }
+      ]
+    },
+    {
+      "title": "Backend & Architecture",
+      "type": "tag",
+      "subskills": [
+        {
+          "name": "Distributed Systems"
+        },
+        {
+          "name": "Microservices"
+        },
+        {
+          "name": "Event-Driven Architecture"
+        },
+        {
+          "name": "API Design (REST/OpenAPI)"
+        },
+        {
+          "name": "System Design at Scale"
+        },
+        {
+          "name": "Job Orchestration"
+        },
+        {
+          "name": "Serverless"
         }
       ]
     },
@@ -43,139 +70,82 @@
           "name": "C#"
         },
         {
-          "name": "Javascript"
+          "name": "Go"
         },
         {
-          "name": "Typescript"
+          "name": "Python"
+        },
+        {
+          "name": "TypeScript"
         },
         {
           "name": "F#"
         },
         {
-          "name": "Powershell"
+          "name": "JavaScript"
         },
         {
           "name": "Elixir"
         },
         {
-          "name": "Ruby"
-        },
-        {
-          "name": "Dart"
-        },
-        {
-          "name": "CSS"
-        },
-        {
-          "name": "Xml/Xslt"
+          "name": "PowerShell"
         }
       ]
     },
     {
-      "title": "Frameworks",
+      "title": "Frameworks & Runtimes",
       "type": "tag",
       "subskills": [
-        {
-          "name": "ASP.Net MVC"
-        },
         {
           "name": ".Net Core"
         },
         {
-          "name": "Angular 2+"
+          "name": "ASP.Net"
         },
         {
-          "name": "Bootstrap"
-        },
-        {
-          "name": "Jquery"
-        },
-        {
-          "name": "AngularJs"
-        },        
-        {
-          "name": "NodeJs"
+          "name": "Node.js"
         },
         {
           "name": "Express"
         },
         {
-          "name": "React"
-        },
-        {
-          "name": "Gatsby"
-        },
-        {
-          "name": "TailwindCss"
-        },
-        {
-          "name": "Nhibernate"
+          "name": "Phoenix Framework"
         },
         {
           "name": "Entity Framework"
         },
         {
-          "name": "Ruby on Rails"
-        },
-        {
-          "name": "Phoenix Framework"
-        },
-        {
-          "name": "Microsoft Bot Framework"
-        },
-        {
-          "name": "Xamarin"
-        },
-        {
           "name": "Blazor"
+        },
+        {
+          "name": "React"
+        },
+        {
+          "name": "Angular"
         }
       ]
     },
     {
-      "title": "Software & Platforms",
+      "title": "Cloud & DevOps",
       "type": "tag",
       "subskills": [
         {
-          "name": "Azure"
-        },
-        {
-          "name": "Windows Server"
-        },
-        {
-          "name": "Linux"
-        },
-        {
-          "name": "IIS"
-        },
-        {
-          "name": "OTP"
+          "name": "Azure (Functions, Service Bus, DevOps)"
         },
         {
           "name": "Docker"
         },
         {
-          "name": "Microsoft Visual Studio"
+          "name": "Kubernetes/Argo CD"
         },
         {
-          "name": "VS Code"
+          "name": "GitHub Actions"
         },
         {
-          "name": "Biztalk"
+          "name": "Linux"
         },
         {
-          "name": "Sharepoint"
-        },
-        {
-          "name": "Dokku"
-        },
-        {
-          "name": "Heroku"
-        },
-        {
-          "name": "Digital Ocean"
-        },
-        {
-          "name": "Github (actions)"
+          "name": "nginx"
         }
       ]
     },
@@ -184,52 +154,46 @@
       "type": "tag",
       "subskills": [
         {
-          "name": "MS Sql"
+          "name": "SQL Server"
         },
         {
-          "name": "PostgreSql"
+          "name": "PostgreSQL"
         },
         {
-          "name": "MySql"
+          "name": "SQLite"
         },
         {
-          "name": "CosmoDB"
-        },
-        {
-          "name": "Firebase"
-        },
-        {
-          "name": "Mongodb"
+          "name": "MongoDB"
         },
         {
           "name": "Redis"
         },
         {
-          "name": "ETS"
-        },
-        {
-          "name": "Mnesia"
+          "name": "CosmosDB"
         }
       ]
     },
     {
-      "title": "Methodologies",
+      "title": "Technical Leadership",
       "type": "tag",
       "subskills": [
         {
-          "name": "TDD"
+          "name": "Staff-Level Technical Leadership"
         },
         {
-          "name": "DDD"
+          "name": "Architecture & System Design"
         },
         {
-          "name": "XP"
+          "name": "Mentoring & Developer Growth"
         },
         {
-          "name": "Kanban"
+          "name": "TDD/DDD"
         },
         {
-          "name": "Scrum"
+          "name": "Cross-Team Influence"
+        },
+        {
+          "name": "Agile (Scrum, Kanban, XP)"
         }
       ]
     },
@@ -249,12 +213,12 @@
       ]
     }
   ],
-  "summary": "Software Developer, Tech Lead and Mentor: .Net (C#/F#), Sql Server, NodeJs, Angular 2+, React, GatsbyJs, Azure, Devops, Microservices, Serverless, Architecture, Tests, TDD, DDD, AI Chat Bots and Agents",
+  "summary": "Staff-level engineer with 20+ years building and scaling backend systems across fintech, hospitality, and enterprise domains. Led architectural transformations — monolith-to-microservices, event-driven systems scaling from dozens to thousands of req/min, cloud-native on Azure/Kubernetes. Integrates AI and LLM-based agents into development workflows and product features, multiplying team productivity. Proven technical leader who drives TDD culture, cross-team architectural decisions, and developer growth.",
   "education": [
     {
       "institution": "UCS - Cruzeiro do Sul University",
       "institution_url": "https://www.cruzeirodosul.edu.br/",
-      "degree": "Philosophy",
+      "degree": "Philosophy — Systems Thinking, Ethics & Decision Theory",
       "subtitle_degree": "Bachelor of Philosophy, Ethics, Politics, and Economics",
       "start": "01/2023",
       "end": "06/2026"
@@ -277,45 +241,44 @@
   ],
   "experience": [
     {
-      "role": "Tech Lead, Full-Stack developer, and Mentor",
-      "company": "Baires Dev",      
-      "description": "Tech Lead, Full-Stack Developer, and Mentor working with Microsoft technologies (Azure, .Net, and SQL Server), Go, Node.Js, Angular, React, and VueJs",
-      "achievements": { 
+      "role": "Staff Engineer, Tech Lead & Mentor",
+      "company": "Baires Dev",
+      "description": "Staff Engineer, Tech Lead, and Mentor working with backend systems and AI integration using Microsoft technologies (Azure, .Net, SQL Server), Go, Node.js, and cloud-native architectures.",
+      "achievements": {
         "title": "Some achievements:",
         "list": [
-        "I've migrated old legacy applications to be microservice solutions with Azure Functions in record time;",
-        "Successfully introduced a TDD culture - Hundreds of tests written covering critical paths and securing or deployments;",        
-        "Make the API's clients generation for Javascript fully automated (with OpenAPI and DevOps), reducing the time to front-end adopt changes;",        
-        "Handling the technical aspects of the team, including the architecture, the DevOps, and the project management.",
-        "Received the R&D Spotlight Award for the last quarter of 2021 on a key player in the hospitality industry.",
-        "Supporting AngularJs to Angular 2+ migration in critical applications for game/team management.",
-        "Leading migration of Monolith applications to microservices with NodeJs, Express, and Next.js",
-        "Configuring Docker (Compose) to enable legacy application maintenance and improviments",
-        "Using Kubernetes/Argos to automatically scale up dockerized applications;",
-        "Mentoring developers to increase productivity in multiple clients;"
+        "Migrated legacy applications to microservice solutions with Azure Functions and event-driven patterns in record time;",
+        "Integrated LLM APIs (Claude, GPT) into product features and development pipelines, accelerating code review, documentation, and implementation;",
+        "AI-augmented development workflows that multiplied team productivity across multiple projects;",
+        "Automated API client generation for JavaScript with OpenAPI and DevOps, reducing frontend adoption time;",
+        "Introduced TDD culture from scratch — hundreds of tests covering critical paths, eliminating regressions in production;",
+        "Used Kubernetes/Argo CD to automatically scale dockerized applications;",
+        "Received the R&D Spotlight Award for Q4 2021 at a key player in the hospitality industry;",
+        "Mentoring developers to increase productivity across multiple clients;"
         ]
       },
       "start": "03/2021",
       "end": ""
     },
     {
-      "role": "Full-Stack developer & Tech Leader",
-      "company": "White Fox",      
-      "description": "Full-Stack developer working with Microsoft technologies (C#, WCF, WSSF, Nhibernate) and Node.Js on the back-end and Angular 2+/React/Javascript on the front-end. Also Working as a tech leader and solutions architect using agile methodologies (Scrum, TDD, XP etc.) for B&T (one of the most outstanding money exchange brokers here in Brazil).",
-      "achievements": { 
+      "role": "Backend Engineer & Technical Leader",
+      "company": "White Fox",
+      "description": "Backend engineer and technical leader for B&T, one of Brazil's most outstanding money exchange brokers. Led architectural evolution from monolith to microservices, financial system integrations, and early AI adoption using agile methodologies (Scrum, TDD, XP).",
+      "achievements": {
         "title": "Some of our team achievements over this decade:",
         "list": [
-        "Implemented a test culture (TDD) mitigating errors in deployments and eliminating regressions and bugs in production;",
-        "Automated deployments with Azure Devops and management activities with Microsoft Bot Framework;",
-        "Maintained and evolved old monoliths, dividing them into microservices communicating through Sql/Azure ServiceBroker to escalate from dozens to thousands of requests per minute.",        
-        "Integrated with different institutions like Bacen STA (Brazil's Central Bank messaging system), Receita Federal (Brazil's Federal Revenue Service), Brasil Pré-Pagos (Prepaid multi-currency Card) etc;",
+        "Maintained and evolved old monoliths, dividing them into microservices communicating through SQL/Azure ServiceBroker to scale from dozens to thousands of requests per minute;",
+        "Integrated with different institutions like Bacen STA (Brazil's Central Bank messaging system), Receita Federal (Brazil's Federal Revenue Service), Brasil Pré-Pagos (Prepaid multi-currency Card);",
         "Integrated payments and receipts from electronic transfers in Brazil (TED and PIX) and cryptocurrencies (Bitcoin);",
-        "Ported ActiveWriter to Visual Studio 2017, 2019, and 2022 so the team can work with a modern setup even in legacy NHibernate applications;",
-        "Ensured MonoRepos and Modular Monolithic applications work after 20 years, across multiple .Net versions, delivering value and customer happiness;", 
+        "Built Jarvis — an early AI agent using NLU (LUIS) to orchestrate multi-step business processes via natural language, a precursor to modern LLM-based agents;",
+        "Implemented a test culture (TDD) mitigating errors in deployments and eliminating regressions and bugs in production;",
+        "Automated deployments with Azure DevOps and management activities with Microsoft Bot Framework;",
         "Implemented cross-domain libraries using F# to ensure encapsulation and implement the right DDD abstractions;",
-        "Migrated internal scheduling System to F# and Azure Functions, reducing the cost of maintenance and increasing the performance;",
-        "Taking advance of F# expressiveness and Elegance enhanced the performace and maintanability of complex mathematical calculations;",
-        "Since 03/2021, I've been working as a consultant for critical solutions and specifications;"
+        "Migrated internal scheduling system to F# and Azure Functions, reducing the cost of maintenance and increasing performance;",
+        "Taking advantage of F# expressiveness and elegance, enhanced the performance and maintainability of complex mathematical calculations;",
+        "Ensured MonoRepos and Modular Monolithic applications work after 20 years, across multiple .Net versions, delivering value and customer happiness;",
+        "Ported ActiveWriter to Visual Studio 2017, 2019, and 2022 so the team can work with a modern setup even in legacy NHibernate applications;",
+        "Since 03/2021, continued as consultant for critical solutions and specifications;"
         ]
       },
       "start": "11/2009",
@@ -325,10 +288,10 @@
       "role": "Biztalk and Sharepoint Consultant",
       "company": "Ecorp",
       "description": "Senior consultant and developer in Microsoft BizTalk, SharePoint, SQL Server, ASP.NET working directly to customers from Rio de Janeiro (Light and L'Oreal) performing technical management, gathering requirements, application development, and SAP integrations maintenance (XI and PI modules).",
-      "achievements": { 
+      "achievements": {
         "title": "Key Achievements:",
         "list": [
-        "Implemented Biztalk integration between oracle problem system with SAP portable mobile gateway. This integration addressed all requests for external support from Light customers in Rio de Janeiro;",        
+        "Implemented Biztalk integration between oracle problem system with SAP portable mobile gateway. This integration addressed all requests for external support from Light customers in Rio de Janeiro;",
         "Automated the publishing of Light KPIs from Excel direct into the company's internal Sharepoint."
         ]
       },
@@ -338,11 +301,11 @@
     {
       "role": "Senior Developer",
       "company": "Oi - Accenture",
-      "description": "Maintenance of CRM System / ERP of the OI Tsunami project (SIA) and EPM (Sharepoint and Microsoft Project) with C# programming (Asp.Net and Desktop) using CCF, SQL Server and WCF; Systems optimizations and database management with Oracle and MS SQL Server. Also gathering requirements, negotiating deadlines, planning projects directly with the customers.",
-      "achievements": { 
+      "description": "Maintenance of CRM System / ERP of the OI Tsunami project (SIA) and EPM (Sharepoint and Microsoft Project) with C# programming (Asp.Net and Desktop) using CCF, SQL Server and WCF; Systems optimizations and database management with Oracle and MS SQL Server. Also gathering requirements, negotiating deadlines, planning projects directly with the customers.",
+      "achievements": {
         "title": "Key Achievements:",
         "list": [
-        "Implemented M.A.R.T a walkthrough system that, using external APIs for testing phone line quality, guides the call-center operators what actions had to be done to help customers (yep, the system that asks you to turn your modem off and on);",        
+        "Built M.A.R.T — a decision engine that, using external APIs for phone line quality testing, guided call-center operators through diagnostic workflows to resolve customer issues systematically;",
         "Improved the performance of the monthly conciliation process of Oi (Batimento) 24x. It used to take up to 12 hours a month to finish and after optimization, it took less than 30 minutes."
         ]
       },
@@ -362,9 +325,9 @@
       "description": "Web Developer working with PHP and ASP classic, developing and maintaining the Apligraf´s CRM/ERP for StockMarket. For Digipix, We developed their photographic revelation service for companies. This service is still in use in Brazilian e-commerces like B2W (Americanas.com, Submarino, Shoptime), Saraiva, Extra etc.",
       "start": "11/2004",
       "end": "06/2006"
-    }    
+    }
   ],
-  "social": [    
+  "social": [
     {
       "service": "linkedin",
       "url": "https://www.linkedin.com/in/thluiz"
@@ -374,17 +337,68 @@
       "url": "https://github.com/thluiz"
     }
   ],
-  "role": "Full Stack Developer and Tech Leader",
+  "role": "Staff Backend Engineer & Technical Leader",
   "projects": {
     "title": "Side Projects",
-    "subtitle": "The best way to learn new languages and paradigms are building and testing them. Therefore, I am always open to experiment and build tools to help people around me. It usually lead me to new ways to approach and resolve problems.",
+    "subtitle": "Building tools and systems beyond day-to-day work — from AI agents and distributed systems to developer community leadership.",
     "projects": [
+      {
+        "name": "Vox-Intelligence — AI Gateway & LLM Router",
+        "company": "Personal",
+        "start": "2024",
+        "technologies": "TypeScript, Bun, OpenAI-compatible API, Anthropic/OpenAI/Ollama/DeepSeek",
+        "description": "Multi-provider LLM gateway with intelligent routing, prompt caching (~75% token cost reduction), fallback chains to local models, and structured presets for content processing. Handles up to 1M characters per request with vision support and streaming.",
+        "links": []
+      },
+      {
+        "name": "Toscanini — AI Pipeline Orchestrator",
+        "company": "Personal",
+        "start": "2024",
+        "technologies": "Elixir, Phoenix, Oban, SQLite, faster-whisper, Claude API, MCP",
+        "description": "End-to-end content processing pipeline with 8-stage orchestration: collection → GPU transcription → AI summarization → publishing. Intelligent GPU scheduler with time-based windows, CPU/GPU fallback, and concurrent job limits. MCP server for Claude Code integration.",
+        "links": []
+      },
+      {
+        "name": "Hermes-PT — AI Infrastructure Platform",
+        "company": "Personal",
+        "start": "2024",
+        "technologies": "WSL, Docker, Ollama, systemd, nginx, Python, Bun",
+        "description": "Self-hosted AI development platform running multiple microservices: LLM gateway (Vox-Intelligence), transcription service (Whisper-API with CUDA), notification gateway (GossipGate), health monitoring, and 13+ AI agent skills. Dynamic GPU scheduling across services on RTX 3050.",
+        "links": []
+      },
+      {
+        "name": "Jarvis — AI Agent for Team Productivity",
+        "company": "White Fox",
+        "start": "09/2018",
+        "end": "12/2022",
+        "technologies": "AI/NLU, Microsoft Bot Framework, LUIS, Node.js, TypeScript, SQL Server",
+        "descriptions": [
+          "Early AI agent using Natural Language Understanding (LUIS) to orchestrate multi-step business processes via conversational interface — a precursor to modern LLM-based agents. Jarvis handled scrum master activities, billing, planning, and repetitive tasks through Skype and Microsoft Teams.",
+          "His capabilities included search for tasks, projects, registering billing, check team velocity and common repetitive tasks like generate codes and valid documents (CPF/CEPs, CNPJs...);"
+        ],
+        "links": [
+          { "title": "Visit Source Code", "url": "https://github.com/thluiz/jarvis-whitefox" }
+        ]
+      },
+      {
+        "name": "Elug |> RJ",
+        "company": "Meetup group",
+        "start": "2016",
+        "end": "not so active",
+        "technologies": "Elixir, Phoenix Framework, OTP, Web RTC",
+        "description": "Co-organizer of Rio de Janeiro's Elixir meetup — built real-time distributed systems with the community. Led hands-on events including a real-time WebRTC audio/video chat and a multiplayer starship game using OTP supervision trees and Phoenix Channels.",
+        "links": [
+          { "title": "Visit Meet Up", "url": "https://www.meetup.com/elixir-rj/" },
+          { "title": "Visit 6th presentation", "url": "https://github.com/thluiz/sexto_elug_rj" },
+          { "title": "Visit 4th presentation", "url": "https://github.com/thluiz/quartoElugRJ" }
+        ]
+      },
       {
         "name": "SIG (Integrated Management System)",
         "company": "MYVT MI.IM",
-        "start": "11/2018",        
-        "technologies": "Node.js, Angular 2+, MS Sql Server, Firebase",
-        "description": "CRM/ERP system write in TypeScript (back-end) and Angular 2+ (front-end). Using Firebase for sync multiple clients providing real-time updates and communication between MYVTMI.IM branches. They are planning expansion to Angola and Miami so it will become a multinational system.",
+        "start": "11/2018",
+        "technologies": "Node.js, TypeScript, Angular 2+, MS SQL Server",
+        "description": "Backend-driven CRM/ERP system with TypeScript (Node.js) handling business logic, multi-branch data synchronization, and real-time updates. Designed for multinational expansion to Angola and Miami.",
         "links": [
           { "title": "Visit Back-End", "url": "https://github.com/thluiz/sam-apinode" }
         ]
@@ -401,39 +415,12 @@
         ]
       },
       {
-        "name": "Elug |> RJ",
-        "company": "Meetup group",        
-        "start": "2016",        
-        "end": "not so active",
-        "technologies": "Elixir, Phoenix Framework, OTP, Web RTC",
-        "description": "For those who do not bother with dynamic languages, Elixir is an invite to 'fall in love'. Built over the powerful OTP from Erlang, I believe that every programmers should look for the ideas behind it. I have joined as an organizer in 2016 and made two great events: the fourth, where we built a real-time Audio and Video chat over WebRTC; and the sixth, where we built a multiplayer starship game. I was planning to revamp it in 2020 but the pandemic delayed it to 2021.",
-        "links": [
-          { "title": "Visit Meet Up", "url": "https://www.meetup.com/elixir-rj/" },
-          { "title": "Visit 6th presentation", "url": "https://github.com/thluiz/sexto_elug_rj" },
-          { "title": "Visit 4th presentation", "url": "https://github.com/thluiz/quartoElugRJ" }
-        ]
-      },
-      {
-        "name": "Jarvis",
-        "company": "White Fox",
-        "start": "09/2018",
-        "end": "12/2022",
-        "technologies": "Microsoft Bot Framework, NodeJs, Typescript, MS Sql Server, LUIS (Language Understanding Service)",
-        "descriptions": [
-          "AI Virtual Chat Agent, executing scrum master activities, billing and planning. Jarvis was a humorous and grumpy Skype and Microsoft Teams application wrote in typescript using Microsoft Bot Framework and the Language Understanding Service (to translate users input into intents and actions).",
-          "His capabilities included search for tasks, projects, registering billing, check team velocity and common repetitive tasks like generate codes and valid documents (CPF/CEPs, CNPJs...);"          
-        ],
-        "links": [
-          { "title": "Visit Source Code", "url": "https://github.com/thluiz/jarvis-whitefox" }
-        ]        
-      },
-      {
         "name": ".TV",
         "company": ".TV",
         "start": "11/2006",
         "end": "01/2010",
         "technologies": "Ruby on Rails, AngularJs, Bootstrap, PostgreSql",
-        "description": "Web channel system. It used a Ruby on Rails application to upload, orchestrate, and encode videos in different formats for the web. The idea was to explore specific niches while granting fully control of content and audience. By the time they started YouTube was not lucrative and It was before his acquisition by google. They discontinued their principal project (Psicologica.TV - a psychology channel), after the YouTube/Facebook expansion. However, <a href='http://yehudim.tv' target='_blank' class='text-secondary-500'>Yehudim.TV</a> (a Jewish channel) still working and they sold <a href='http://itvision.tv' target='_blank' class='text-secondary-500'>ITVision.TV</a> (an IT corporate channel – that now has a more modern version)."        
+        "description": "Web channel system. It used a Ruby on Rails application to upload, orchestrate, and encode videos in different formats for the web. The idea was to explore specific niches while granting fully control of content and audience. By the time they started YouTube was not lucrative and It was before his acquisition by google. They discontinued their principal project (Psicologica.TV - a psychology channel), after the YouTube/Facebook expansion. However, <a href='http://yehudim.tv' target='_blank' class='text-secondary-500'>Yehudim.TV</a> (a Jewish channel) still working and they sold <a href='http://itvision.tv' target='_blank' class='text-secondary-500'>ITVision.TV</a> (an IT corporate channel – that now has a more modern version)."
       }
     ]
   },

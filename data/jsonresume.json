@@ -1,13 +1,13 @@
 {
   "basics": {
     "name": "Thiago Luiz Silva Pereira",
-    "label": "Full Stack Developer and Tech Leader",
+    "label": "Staff Backend Engineer & Technical Leader",
     "image": "https://resume.thluiz.com/profile-podcast.png",
     "picture": "https://resume.thluiz.com/profile-podcast.png",
     "email": "contact@thluiz.com",
     "phone": "+55 021 97627 8160",
     "url": "https://resume.thluiz.com",
-    "summary": "Software Developer, Tech Lead and Mentor with 20+ years of experience. Specialized in .Net (C#/F#), Node.js, Angular 2+, React, Azure, Microservices, Serverless Architecture, TDD, DDD, and AI Chat Bots/Agents. Proven track record of scaling systems from dozens to thousands of requests per minute, leading teams, mentoring developers, and building products from scratch.",
+    "summary": "Staff-level engineer with 20+ years building and scaling backend systems across fintech, hospitality, and enterprise domains. Led architectural transformations — monolith-to-microservices, event-driven systems scaling from dozens to thousands of req/min, cloud-native on Azure/Kubernetes. Integrates AI and LLM-based agents into development workflows and product features, multiplying team productivity. Proven technical leader who drives TDD culture, cross-team architectural decisions, and developer growth.",
     "location": {
       "city": "Rio de Janeiro",
       "countryCode": "BR",
@@ -29,37 +29,37 @@
   "work": [
     {
       "name": "BairesDev",
-      "position": "Tech Lead, Full-Stack Developer, and Mentor",
+      "position": "Staff Engineer, Tech Lead & Mentor",
       "startDate": "2021-03-01",
       "endDate": "",
-      "summary": "Tech Lead, Full-Stack Developer, and Mentor working with Microsoft technologies (Azure, .Net, SQL Server), Go, Node.js, Angular, React, and Vue.js.",
+      "summary": "Staff Engineer, Tech Lead, and Mentor working with backend systems and AI integration using Microsoft technologies (Azure, .Net, SQL Server), Go, Node.js, and cloud-native architectures.",
       "highlights": [
-        "Migrated legacy applications to microservice solutions with Azure Functions in record time",
-        "Introduced TDD culture — hundreds of tests covering critical paths, securing deployments",
+        "Migrated legacy applications to microservice solutions with Azure Functions and event-driven patterns in record time",
+        "Integrated LLM APIs (Claude, GPT) into product features and development pipelines, accelerating code review, documentation, and implementation",
+        "AI-augmented development workflows that multiplied team productivity across multiple projects",
         "Automated API client generation for JavaScript with OpenAPI and DevOps, reducing frontend adoption time",
-        "Received R&D Spotlight Award for Q4 2021 at a key player in the hospitality industry",
-        "Led migration of monolith applications to microservices with Node.js, Express, and Next.js",
+        "Introduced TDD culture from scratch — hundreds of tests covering critical paths, eliminating regressions in production",
         "Used Kubernetes/Argo CD to automatically scale dockerized applications",
-        "Configured Docker Compose to enable legacy application maintenance and improvements",
-        "Supported AngularJS to Angular 2+ migration in critical game/team management applications",
+        "Received R&D Spotlight Award for Q4 2021 at a key player in the hospitality industry",
         "Mentored developers to increase productivity across multiple clients"
       ]
     },
     {
       "name": "White Fox (B&T)",
-      "position": "Full-Stack Developer & Tech Leader",
+      "position": "Backend Engineer & Technical Leader",
       "startDate": "2009-11-01",
       "endDate": "2021-03-01",
-      "summary": "Full-Stack developer and tech leader for one of Brazil's most outstanding money exchange brokers. Worked with C#, F#, WCF, NHibernate, Node.js, Angular 2+, and React using agile methodologies (Scrum, TDD, XP).",
+      "summary": "Backend engineer and technical leader for one of Brazil's most outstanding money exchange brokers. Led architectural evolution from monolith to microservices, financial system integrations, and early AI adoption using agile methodologies (Scrum, TDD, XP).",
       "highlights": [
-        "Implemented TDD culture, eliminating regressions and bugs in production",
-        "Automated deployments with Azure DevOps and management activities with Microsoft Bot Framework",
         "Evolved monoliths into microservices via SQL/Azure ServiceBroker, scaling from dozens to thousands of requests per minute",
         "Integrated with Brazil's Central Bank (Bacen STA), Federal Revenue Service, PIX, and Bitcoin payments",
+        "Built Jarvis — an early AI agent using NLU (LUIS) to orchestrate multi-step business processes, a precursor to modern LLM-based agents",
+        "Implemented TDD culture, eliminating regressions and bugs in production",
+        "Automated deployments with Azure DevOps and management activities with Microsoft Bot Framework",
         "Implemented cross-domain libraries in F# for proper DDD abstractions and encapsulation",
         "Migrated internal scheduling system to F# and Azure Functions, reducing maintenance cost and increasing performance",
+        "Enhanced performance and maintainability of complex mathematical calculations using F#",
         "Ensured MonoRepos and Modular Monolithic applications work across 20 years and multiple .Net versions",
-        "Ported ActiveWriter to Visual Studio 2017, 2019, and 2022 for legacy NHibernate applications",
         "Since 03/2021, continued as consultant for critical solutions and specifications"
       ]
     },
@@ -81,7 +81,7 @@
       "endDate": "2009-01-01",
       "summary": "Maintenance of CRM/ERP systems for the Oi Tsunami project (SIA) and EPM with C# (ASP.Net and Desktop), SQL Server, WCF, and Oracle.",
       "highlights": [
-        "Built M.A.R.T — a walkthrough system using external APIs for phone line quality testing that guided call-center operators",
+        "Built M.A.R.T — a decision engine using external APIs for phone line quality testing that guided call-center operators through diagnostic workflows",
         "Improved monthly conciliation process (Batimento) performance by 24x — from 12 hours to under 30 minutes"
       ]
     },
@@ -104,7 +104,7 @@
     {
       "institution": "UCS - Cruzeiro do Sul University",
       "url": "https://www.cruzeirodosul.edu.br/",
-      "area": "Ethics, Politics, and Economics",
+      "area": "Systems Thinking, Ethics & Decision Theory",
       "studyType": "Bachelor of Philosophy",
       "startDate": "2023-01-01",
       "endDate": "2026-06-01"
@@ -136,34 +136,34 @@
   ],
   "skills": [
     {
-      "name": "Backend Development",
+      "name": "AI & Intelligent Systems",
       "level": "Master",
-      "keywords": ["C#", "F#", "Node.js", "Express", ".Net Core", "ASP.Net MVC", "Elixir", "Phoenix Framework", "Ruby on Rails"]
+      "keywords": ["LLM Integration (Claude, GPT, Ollama)", "AI Agents & Orchestration", "RAG", "Prompt Engineering", "AI Pipeline Design", "MCP", "NLU/Intent Recognition", "AI-Augmented Development"]
     },
     {
-      "name": "Frontend Development",
+      "name": "Backend & Architecture",
       "level": "Master",
-      "keywords": ["JavaScript", "TypeScript", "Angular 2+", "React", "Gatsby", "TailwindCSS", "Bootstrap", "AngularJS"]
+      "keywords": ["Distributed Systems", "Microservices", "Event-Driven Architecture", "API Design (REST/OpenAPI)", "System Design at Scale", "Job Orchestration", "Serverless"]
+    },
+    {
+      "name": "Languages",
+      "level": "Master",
+      "keywords": ["C#", "Go", "Python", "TypeScript", "F#", "JavaScript", "Elixir", "PowerShell"]
     },
     {
       "name": "Cloud & DevOps",
       "level": "Master",
-      "keywords": ["Azure", "Azure Functions", "Azure DevOps", "Docker", "Kubernetes", "Argo CD", "GitHub Actions", "Heroku", "Digital Ocean"]
+      "keywords": ["Azure (Functions, Service Bus, DevOps)", "Docker", "Kubernetes/Argo CD", "GitHub Actions", "Linux", "nginx"]
     },
     {
       "name": "Databases",
       "level": "Master",
-      "keywords": ["SQL Server", "PostgreSQL", "MySQL", "CosmoDB", "Firebase", "MongoDB", "Redis"]
+      "keywords": ["SQL Server", "PostgreSQL", "SQLite", "MongoDB", "Redis", "CosmosDB"]
     },
     {
-      "name": "Methodologies",
+      "name": "Technical Leadership",
       "level": "Master",
-      "keywords": ["Microservices", "Serverless", "Event-Driven Architecture", "DDD", "TDD", "Scrum", "Kanban", "XP"]
-    },
-    {
-      "name": "Leadership",
-      "level": "Master",
-      "keywords": ["Tech Lead", "Mentoring", "Project Management", "Architecture"]
+      "keywords": ["Staff-Level Technical Leadership", "Architecture & System Design", "Mentoring & Developer Growth", "TDD/DDD", "Cross-Team Influence", "Agile (Scrum, Kanban, XP)"]
     }
   ],
   "languages": [
@@ -192,27 +192,67 @@
   ],
   "projects": [
     {
-      "name": "SIG (Integrated Management System)",
-      "startDate": "2018-11-01",
-      "description": "CRM/ERP system for MYVT MI.IM written in TypeScript (Node.js backend) and Angular 2+ frontend. Uses Firebase for real-time sync across multiple branches, with planned expansion to Angola and Miami.",
+      "name": "Vox-Intelligence — AI Gateway & LLM Router",
+      "startDate": "2024-01-01",
+      "description": "Multi-provider LLM gateway with intelligent routing, prompt caching (~75% token cost reduction), fallback chains to local models, and structured presets for content processing. Handles up to 1M characters per request with vision support and streaming.",
       "highlights": [
-        "Full-stack TypeScript application",
-        "Real-time multi-branch sync with Firebase",
-        "Multinational expansion planned"
-      ],
-      "url": "https://github.com/thluiz/sam-apinode"
+        "Multi-provider abstraction (Anthropic, OpenAI, Ollama, DeepSeek)",
+        "~75% token cost reduction via prompt caching",
+        "System design and cost optimization for production AI infra"
+      ]
     },
     {
-      "name": "Jarvis — AI Virtual Assistant",
+      "name": "Toscanini — AI Pipeline Orchestrator",
+      "startDate": "2024-01-01",
+      "description": "End-to-end content processing pipeline with 8-stage orchestration: collection → GPU transcription → AI summarization → publishing. Intelligent GPU scheduler with time-based windows, CPU/GPU fallback, and concurrent job limits. MCP server for Claude Code integration.",
+      "highlights": [
+        "8-stage pipeline orchestration with Oban",
+        "Intelligent GPU scheduling with CPU/GPU fallback",
+        "MCP server for Claude Code integration"
+      ]
+    },
+    {
+      "name": "Hermes-PT — AI Infrastructure Platform",
+      "startDate": "2024-01-01",
+      "description": "Self-hosted AI development platform running multiple microservices: LLM gateway, transcription service (Whisper-API with CUDA), notification gateway, health monitoring, and 13+ AI agent skills. Dynamic GPU scheduling across services.",
+      "highlights": [
+        "13+ AI agent skills orchestrated across microservices",
+        "Dynamic GPU resource management on RTX 3050",
+        "Infrastructure architecture for self-hosted AI development"
+      ]
+    },
+    {
+      "name": "Jarvis — AI Agent for Team Productivity",
       "startDate": "2018-09-01",
       "endDate": "2022-12-01",
-      "description": "AI chatbot using Microsoft Bot Framework and LUIS (Language Understanding Service) for Skype and Microsoft Teams. Automated scrum master activities, billing, planning, and common tasks.",
+      "description": "Early AI agent using Natural Language Understanding (LUIS) to orchestrate multi-step business processes via conversational interface — a precursor to modern LLM-based agents. Handled scrum master activities, billing, planning, and repetitive tasks through Skype and Microsoft Teams.",
       "highlights": [
-        "Natural language processing with LUIS",
-        "Scrum master automation",
-        "Built with TypeScript and Node.js"
+        "NLU-driven multi-step business process orchestration",
+        "Precursor to modern LLM-based agent patterns",
+        "Built with TypeScript, Node.js, and Microsoft Bot Framework"
       ],
       "url": "https://github.com/thluiz/jarvis-whitefox"
+    },
+    {
+      "name": "Elug |> RJ — Elixir Meetup",
+      "startDate": "2016-01-01",
+      "description": "Co-organizer of Rio de Janeiro's Elixir meetup. Led hands-on events building real-time distributed systems including a WebRTC audio/video chat and a multiplayer starship game using OTP supervision trees.",
+      "highlights": [
+        "Real-time distributed systems with OTP",
+        "Community leadership and developer education"
+      ],
+      "url": "https://www.meetup.com/elixir-rj/"
+    },
+    {
+      "name": "SIG (Integrated Management System)",
+      "startDate": "2018-11-01",
+      "description": "Backend-driven CRM/ERP system with TypeScript (Node.js) handling business logic, multi-branch data synchronization, and real-time updates. Designed for multinational expansion.",
+      "highlights": [
+        "Full-stack TypeScript application with Node.js backend",
+        "Multi-branch real-time synchronization",
+        "Multinational expansion architecture"
+      ],
+      "url": "https://github.com/thluiz/sam-apinode"
     },
     {
       "name": "Genesys SRD",
@@ -221,15 +261,14 @@
       "url": "https://github.com/thluiz/genesys-srd"
     },
     {
-      "name": "Elug |> RJ — Elixir Meetup",
-      "startDate": "2016-01-01",
-      "endDate": "2020-01-01",
-      "description": "Co-organizer of the Rio de Janeiro Elixir meetup group. Led hands-on events building a real-time WebRTC audio/video chat and a multiplayer starship game.",
+      "name": ".TV — Video Channel Platform",
+      "startDate": "2006-11-01",
+      "endDate": "2010-01-01",
+      "description": "Ruby on Rails application to upload, orchestrate, and encode videos in different formats for the web. Explored niche content delivery before YouTube's dominance.",
       "highlights": [
-        "Real-time WebRTC audio/video chat",
-        "Multiplayer game with Elixir/OTP"
-      ],
-      "url": "https://www.meetup.com/elixir-rj/"
+        "Video encoding pipeline and content orchestration",
+        "Multiple niche channels (Psychology, Jewish content, IT corporate)"
+      ]
     }
   ]
 }
