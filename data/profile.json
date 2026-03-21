@@ -10,6 +10,18 @@
       "type": "tag",
       "subskills": [
         {
+          "name": "LLM"
+        },
+        {
+          "name": "LangChain"
+        },
+        {
+          "name": "Machine Learning"
+        },
+        {
+          "name": "Fine-tuning"
+        },
+        {
           "name": "Claude API"
         },
         {
@@ -55,10 +67,25 @@
           "name": "Event-Driven Architecture"
         },
         {
+          "name": "gRPC"
+        },
+        {
+          "name": "Message Queues"
+        },
+        {
+          "name": "Data Pipelines"
+        },
+        {
           "name": "API Design (REST/OpenAPI)"
         },
         {
           "name": "System Design at Scale"
+        },
+        {
+          "name": "Performance Optimization"
+        },
+        {
+          "name": "Scalability"
         },
         {
           "name": "Job Orchestration"
@@ -157,6 +184,15 @@
           "name": "Kubernetes/Argo CD"
         },
         {
+          "name": "CI/CD"
+        },
+        {
+          "name": "Terraform"
+        },
+        {
+          "name": "Observability"
+        },
+        {
           "name": "GitHub Actions"
         },
         {
@@ -199,6 +235,9 @@
           "name": "Staff-Level Technical Leadership"
         },
         {
+          "name": "Technical Strategy"
+        },
+        {
           "name": "Architecture & System Design"
         },
         {
@@ -231,7 +270,7 @@
       ]
     }
   ],
-  "summary": "Staff-level engineer with 20+ years building and scaling backend systems across fintech, hospitality, and enterprise domains. Led architectural transformations — monolith-to-microservices, event-driven systems scaling from dozens to thousands of req/min, cloud-native on Azure/Kubernetes. Integrates AI and LLM-based agents into development workflows and product features, multiplying team productivity. Proven technical leader who drives TDD culture, cross-team architectural decisions, and developer growth.",
+  "summary": "Staff-level engineer with 20+ years building and scaling high-performance backend systems across fintech, hospitality, and enterprise domains. Led architectural transformations — monolith-to-microservices, event-driven systems with message queues, and cloud-native CI/CD on Azure/Kubernetes. Builds LLM-powered agents, machine learning pipelines, and AI-augmented development workflows that multiply team productivity. Proven technical leader who drives TDD culture, cross-team technical strategy, and developer growth.",
   "education": [
     {
       "institution": "UCS - Cruzeiro do Sul University",
@@ -266,11 +305,12 @@
         "title": "Some achievements:",
         "list": [
         "Migrated legacy applications to microservice solutions with Azure Functions and event-driven patterns in record time;",
-        "Integrated LLM APIs (Claude, GPT) into product features and development pipelines, accelerating code review, documentation, and implementation;",
+        "Integrated LLM-based APIs (Claude, GPT) with LangChain patterns into product features and development pipelines, accelerating code review, documentation, and implementation;",
         "AI-augmented development workflows that multiplied team productivity across multiple projects;",
+        "Designed observability and monitoring strategy for distributed microservices;",
         "Automated API client generation for JavaScript with OpenAPI and DevOps, reducing frontend adoption time;",
         "Introduced TDD culture from scratch — hundreds of tests covering critical paths, eliminating regressions in production;",
-        "Used Kubernetes/Argo CD to automatically scale dockerized applications;",
+        "Used Kubernetes/Argo CD with CI/CD pipelines and Terraform to automatically scale dockerized applications;",
         "Received the R&D Spotlight Award for Q4 2021 at a key player in the hospitality industry;",
         "Mentoring developers to increase productivity across multiple clients;"
         ]
@@ -285,15 +325,16 @@
       "achievements": {
         "title": "Some of our team achievements over this decade:",
         "list": [
-        "Maintained and evolved old monoliths, dividing them into microservices communicating through SQL/Azure ServiceBroker to scale from dozens to thousands of requests per minute;",
+        "Maintained and evolved old monoliths, dividing them into microservices communicating through message queues (SQL/Azure ServiceBroker) to achieve scalability from dozens to thousands of requests per minute;",
         "Integrated with different institutions like Bacen STA (Brazil's Central Bank messaging system), Receita Federal (Brazil's Federal Revenue Service), Brasil Pré-Pagos (Prepaid multi-currency Card);",
         "Integrated payments and receipts from electronic transfers in Brazil (TED and PIX) and cryptocurrencies (Bitcoin);",
         "Built Jarvis — an early AI agent using NLU (LUIS) to orchestrate multi-step business processes via natural language, a precursor to modern LLM-based agents;",
         "Implemented a test culture (TDD) mitigating errors in deployments and eliminating regressions and bugs in production;",
         "Automated deployments with Azure DevOps and management activities with Microsoft Bot Framework;",
         "Implemented cross-domain libraries using F# to ensure encapsulation and implement the right DDD abstractions;",
-        "Migrated internal scheduling system to F# and Azure Functions, reducing the cost of maintenance and increasing performance;",
+        "Migrated internal scheduling system to F# and Azure Functions, achieving performance optimization and reducing the cost of maintenance;",
         "Taking advantage of F# expressiveness and elegance, enhanced the performance and maintainability of complex mathematical calculations;",
+        "Applied machine learning techniques for atypical transaction detection and compliance monitoring;",
         "Ensured MonoRepos and Modular Monolithic applications work after 20 years, across multiple .Net versions, delivering value and customer happiness;",
         "Ported ActiveWriter to Visual Studio 2017, 2019, and 2022 so the team can work with a modern setup even in legacy NHibernate applications;",
         "Since 03/2021, continued as consultant for critical solutions and specifications;"
@@ -365,7 +406,7 @@
         "company": "Personal",
         "start": "06/2025",
         "technologies": "TypeScript, Bun, OpenAI-compatible API, Anthropic/OpenAI/Ollama/DeepSeek",
-        "description": "Multi-provider LLM gateway with intelligent routing, prompt caching (~75% token cost reduction), fallback chains to local models, and structured presets for content processing. Handles up to 1M characters per request with vision support and streaming.",
+        "description": "Multi-provider LLM gateway with intelligent routing, prompt caching for cost optimization (~75% token cost reduction), fallback chains to local models, and structured presets for content processing. Handles up to 1M characters per request with vision support and streaming.",
         "links": []
       },
       {
@@ -373,7 +414,7 @@
         "company": "Personal",
         "start": "06/2024",
         "technologies": "Elixir, Phoenix, Oban, SQLite, faster-whisper, Claude API, MCP",
-        "description": "End-to-end content processing pipeline with 8-stage orchestration: collection → GPU transcription → AI summarization → publishing. Intelligent GPU scheduler with time-based windows, CPU/GPU fallback, and concurrent job limits. MCP server for Claude Code integration.",
+        "description": "End-to-end data pipeline with 8-stage orchestration: collection → GPU transcription → AI summarization → publishing. Intelligent GPU scheduler with time-based windows, CPU/GPU fallback, and concurrent job limits. MCP server for Claude Code integration.",
         "links": []
       },
       {

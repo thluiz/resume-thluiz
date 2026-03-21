@@ -7,7 +7,7 @@
     "email": "contact@thluiz.com",
     "phone": "+55 021 97627 8160",
     "url": "https://resume.thluiz.com",
-    "summary": "Staff-level engineer with 20+ years building and scaling backend systems across fintech, hospitality, and enterprise domains. Led architectural transformations — monolith-to-microservices, event-driven systems scaling from dozens to thousands of req/min, cloud-native on Azure/Kubernetes. Integrates AI and LLM-based agents into development workflows and product features, multiplying team productivity. Proven technical leader who drives TDD culture, cross-team architectural decisions, and developer growth.",
+    "summary": "Staff-level engineer with 20+ years building and scaling high-performance backend systems across fintech, hospitality, and enterprise domains. Led architectural transformations — monolith-to-microservices, event-driven systems with message queues, and cloud-native CI/CD on Azure/Kubernetes. Builds LLM-powered agents, machine learning pipelines, and AI-augmented development workflows that multiply team productivity. Proven technical leader who drives TDD culture, cross-team technical strategy, and developer growth.",
     "location": {
       "city": "Rio de Janeiro",
       "countryCode": "BR",
@@ -35,11 +35,12 @@
       "summary": "Staff Engineer, Tech Lead, and Mentor working with backend systems and AI integration using Microsoft technologies (Azure, .Net, SQL Server), Go, Node.js, and cloud-native architectures.",
       "highlights": [
         "Migrated legacy applications to microservice solutions with Azure Functions and event-driven patterns in record time",
-        "Integrated LLM APIs (Claude, GPT) into product features and development pipelines, accelerating code review, documentation, and implementation",
+        "Integrated LLM-based APIs (Claude, GPT) with LangChain patterns into product features and development pipelines, accelerating code review, documentation, and implementation",
         "AI-augmented development workflows that multiplied team productivity across multiple projects",
+        "Designed observability and monitoring strategy for distributed microservices",
         "Automated API client generation for JavaScript with OpenAPI and DevOps, reducing frontend adoption time",
         "Introduced TDD culture from scratch — hundreds of tests covering critical paths, eliminating regressions in production",
-        "Used Kubernetes/Argo CD to automatically scale dockerized applications",
+        "Used Kubernetes/Argo CD with CI/CD pipelines and Terraform to automatically scale dockerized applications",
         "Received R&D Spotlight Award for Q4 2021 at a key player in the hospitality industry",
         "Mentored developers to increase productivity across multiple clients"
       ]
@@ -51,14 +52,15 @@
       "endDate": "2021-03-01",
       "summary": "Backend engineer and technical leader for one of Brazil's most outstanding money exchange brokers. Led architectural evolution from monolith to microservices, financial system integrations, and early AI adoption using agile methodologies (Scrum, TDD, XP).",
       "highlights": [
-        "Evolved monoliths into microservices via SQL/Azure ServiceBroker, scaling from dozens to thousands of requests per minute",
+        "Evolved monoliths into microservices via message queues (SQL/Azure ServiceBroker), achieving scalability from dozens to thousands of requests per minute",
         "Integrated with Brazil's Central Bank (Bacen STA), Federal Revenue Service, PIX, and Bitcoin payments",
         "Built Jarvis — an early AI agent using NLU (LUIS) to orchestrate multi-step business processes, a precursor to modern LLM-based agents",
         "Implemented TDD culture, eliminating regressions and bugs in production",
         "Automated deployments with Azure DevOps and management activities with Microsoft Bot Framework",
         "Implemented cross-domain libraries in F# for proper DDD abstractions and encapsulation",
-        "Migrated internal scheduling system to F# and Azure Functions, reducing maintenance cost and increasing performance",
+        "Migrated internal scheduling system to F# and Azure Functions, achieving performance optimization and reducing maintenance cost",
         "Enhanced performance and maintainability of complex mathematical calculations using F#",
+        "Applied machine learning techniques for atypical transaction detection and compliance monitoring",
         "Ensured MonoRepos and Modular Monolithic applications work across 20 years and multiple .Net versions",
         "Since 03/2021, continued as consultant for critical solutions and specifications"
       ]
@@ -138,12 +140,12 @@
     {
       "name": "AI & Intelligent Systems",
       "level": "Master",
-      "keywords": ["Claude API", "OpenAI API", "Gemini", "AI Agents & Orchestration", "RAG", "Prompt Engineering", "AI Pipeline Design", "MCP", "NLU/Intent Recognition", "AI-Augmented Development"]
+      "keywords": ["LLM", "LangChain", "Machine Learning", "Fine-tuning", "Claude API", "OpenAI API", "Gemini", "AI Agents & Orchestration", "RAG", "Prompt Engineering", "AI Pipeline Design", "MCP", "NLU/Intent Recognition", "AI-Augmented Development"]
     },
     {
       "name": "Backend & Architecture",
       "level": "Master",
-      "keywords": ["Distributed Systems", "Microservices", "Event-Driven Architecture", "API Design (REST/OpenAPI)", "System Design at Scale", "Job Orchestration", "Serverless"]
+      "keywords": ["Distributed Systems", "Microservices", "Event-Driven Architecture", "gRPC", "Message Queues", "Data Pipelines", "API Design (REST/OpenAPI)", "System Design at Scale", "Performance Optimization", "Scalability", "Job Orchestration", "Serverless"]
     },
     {
       "name": "Languages",
@@ -153,7 +155,7 @@
     {
       "name": "Cloud & DevOps",
       "level": "Master",
-      "keywords": ["Azure", "Azure Functions", "Durable Functions", "AWS", "GCP", "Docker", "Kubernetes/Argo CD", "GitHub Actions", "Linux", "nginx"]
+      "keywords": ["Azure", "Azure Functions", "Durable Functions", "AWS", "GCP", "Docker", "Kubernetes/Argo CD", "CI/CD", "Terraform", "Observability", "GitHub Actions", "Linux", "nginx"]
     },
     {
       "name": "Databases",
@@ -163,7 +165,7 @@
     {
       "name": "Technical Leadership",
       "level": "Master",
-      "keywords": ["Staff-Level Technical Leadership", "Architecture & System Design", "Mentoring & Developer Growth", "TDD/DDD", "Cross-Team Influence", "Agile (Scrum, Kanban, XP)"]
+      "keywords": ["Staff-Level Technical Leadership", "Technical Strategy", "Architecture & System Design", "Mentoring & Developer Growth", "TDD/DDD", "Cross-Team Influence", "Agile (Scrum, Kanban, XP)"]
     }
   ],
   "languages": [
@@ -194,7 +196,7 @@
     {
       "name": "Vox-Intelligence — AI Gateway & LLM Router",
       "startDate": "2025-06-01",
-      "description": "Multi-provider LLM gateway with intelligent routing, prompt caching (~75% token cost reduction), fallback chains to local models, and structured presets for content processing. Handles up to 1M characters per request with vision support and streaming.",
+      "description": "Multi-provider LLM gateway with intelligent routing, prompt caching for cost optimization (~75% token cost reduction), fallback chains to local models, and structured presets for content processing. Handles up to 1M characters per request with vision support and streaming.",
       "highlights": [
         "Multi-provider abstraction (Anthropic, OpenAI, Ollama, DeepSeek)",
         "~75% token cost reduction via prompt caching",
@@ -204,7 +206,7 @@
     {
       "name": "Toscanini — AI Pipeline Orchestrator",
       "startDate": "2024-06-01",
-      "description": "End-to-end content processing pipeline with 8-stage orchestration: collection → GPU transcription → AI summarization → publishing. Intelligent GPU scheduler with time-based windows, CPU/GPU fallback, and concurrent job limits. MCP server for Claude Code integration.",
+      "description": "End-to-end data pipeline with 8-stage orchestration: collection → GPU transcription → AI summarization → publishing. Intelligent GPU scheduler with time-based windows, CPU/GPU fallback, and concurrent job limits. MCP server for Claude Code integration.",
       "highlights": [
         "8-stage pipeline orchestration with Oban",
         "Intelligent GPU scheduling with CPU/GPU fallback",
