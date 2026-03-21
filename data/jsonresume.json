@@ -193,7 +193,7 @@
   "projects": [
     {
       "name": "Vox-Intelligence — AI Gateway & LLM Router",
-      "startDate": "2024-01-01",
+      "startDate": "2025-06-01",
       "description": "Multi-provider LLM gateway with intelligent routing, prompt caching (~75% token cost reduction), fallback chains to local models, and structured presets for content processing. Handles up to 1M characters per request with vision support and streaming.",
       "highlights": [
         "Multi-provider abstraction (Anthropic, OpenAI, Ollama, DeepSeek)",
@@ -203,7 +203,7 @@
     },
     {
       "name": "Toscanini — AI Pipeline Orchestrator",
-      "startDate": "2024-01-01",
+      "startDate": "2024-06-01",
       "description": "End-to-end content processing pipeline with 8-stage orchestration: collection → GPU transcription → AI summarization → publishing. Intelligent GPU scheduler with time-based windows, CPU/GPU fallback, and concurrent job limits. MCP server for Claude Code integration.",
       "highlights": [
         "8-stage pipeline orchestration with Oban",
@@ -213,8 +213,8 @@
     },
     {
       "name": "Hermes-PT — AI Infrastructure Platform",
-      "startDate": "2024-01-01",
-      "description": "Self-hosted AI development platform running multiple microservices: LLM gateway, transcription service (Whisper-API with CUDA), notification gateway, health monitoring, and 13+ AI agent skills. Dynamic GPU scheduling across services.",
+      "startDate": "2023-01-01",
+      "description": "AI development platform running multiple microservices: LLM gateway, transcription service (Whisper-API with CUDA), notification gateway, health monitoring, and 13+ AI agent skills. Dynamic GPU scheduling across services.",
       "highlights": [
         "13+ AI agent skills orchestrated across microservices",
         "Dynamic GPU resource management on RTX 3050",
