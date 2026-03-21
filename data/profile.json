@@ -10,7 +10,13 @@
       "type": "tag",
       "subskills": [
         {
-          "name": "LLM Integration"
+          "name": "Claude API"
+        },
+        {
+          "name": "OpenAI API"
+        },
+        {
+          "name": "Gemini"
         },
         {
           "name": "AI Agents & Orchestration"
@@ -131,6 +137,12 @@
       "subskills": [
         {
           "name": "Azure"
+        },
+        {
+          "name": "Azure Functions"
+        },
+        {
+          "name": "Durable Functions"
         },
         {
           "name": "AWS"

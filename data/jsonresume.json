@@ -138,7 +138,7 @@
     {
       "name": "AI & Intelligent Systems",
       "level": "Master",
-      "keywords": ["LLM Integration", "AI Agents & Orchestration", "RAG", "Prompt Engineering", "AI Pipeline Design", "MCP", "NLU/Intent Recognition", "AI-Augmented Development"]
+      "keywords": ["Claude API", "OpenAI API", "Gemini", "AI Agents & Orchestration", "RAG", "Prompt Engineering", "AI Pipeline Design", "MCP", "NLU/Intent Recognition", "AI-Augmented Development"]
     },
     {
       "name": "Backend & Architecture",
@@ -153,7 +153,7 @@
     {
       "name": "Cloud & DevOps",
       "level": "Master",
-      "keywords": ["Azure", "AWS", "GCP", "Docker", "Kubernetes/Argo CD", "GitHub Actions", "Linux", "nginx"]
+      "keywords": ["Azure", "Azure Functions", "Durable Functions", "AWS", "GCP", "Docker", "Kubernetes/Argo CD", "GitHub Actions", "Linux", "nginx"]
     },
     {
       "name": "Databases",
