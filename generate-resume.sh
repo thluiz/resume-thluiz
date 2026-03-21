@@ -12,9 +12,15 @@ RESUME_JSON="data/jsonresume.json"
 OUTPUT_HTML="resume-stackoverflow.html"
 OUTPUT_PDF="resume.pdf"
 THEME="stackoverflow"
+THEMES_EXTRA="elegant class"
 
 echo "==> Generating HTML with theme: $THEME"
 resume export "$OUTPUT_HTML" --theme "$THEME" --resume "$RESUME_JSON"
+
+for t in $THEMES_EXTRA; do
+  echo "==> Generating HTML with theme: $t"
+  resume export "resume-$t.html" --theme "$t" --resume "$RESUME_JSON"
+done
 
 echo "==> Applying post-processing fixes..."
 node -e "
@@ -42,6 +48,16 @@ console.log('Post-processing done!');
 echo "==> Generating PDF with Chrome headless..."
 node generate-pdf.js "$OUTPUT_HTML" "$OUTPUT_PDF"
 
+echo "==> Copying outputs to static/ for public access..."
+cp "$OUTPUT_PDF" static/
+cp "$OUTPUT_HTML" static/
+for t in $THEMES_EXTRA; do
+  cp "resume-$t.html" static/
+done
+
 echo "==> All done!"
-echo "    HTML: $OUTPUT_HTML"
-echo "    PDF:  $OUTPUT_PDF"
+echo "    PDF:  static/$OUTPUT_PDF  → https://resume.thluiz.com/$OUTPUT_PDF"
+echo "    HTML: static/$OUTPUT_HTML → https://resume.thluiz.com/$OUTPUT_HTML"
+for t in $THEMES_EXTRA; do
+  echo "    HTML: static/resume-$t.html → https://resume.thluiz.com/resume-$t.html"
+done
