@@ -221,7 +221,7 @@
       "description": "AI development platform running multiple microservices: LLM gateway, transcription service (Whisper-API with CUDA), notification gateway, health monitoring, and 13+ AI agent skills. Dynamic GPU scheduling across services.",
       "highlights": [
         "13+ AI agent skills orchestrated across microservices",
-        "Dynamic GPU resource management on RTX 3050",
+        "Dynamic GPU resource management",
         "Infrastructure architecture for self-hosted AI development"
       ]
     },
