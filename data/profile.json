@@ -312,6 +312,8 @@
         "Introduced TDD culture from scratch — hundreds of tests covering critical paths, eliminating regressions in production;",
         "Used Kubernetes/Argo CD with CI/CD pipelines and Terraform to automatically scale dockerized applications;",
         "Received the R&D Spotlight Award for Q4 2021 at a key player in the hospitality industry;",
+        "Expanding end-to-end test coverage with Cypress using AI-assisted development (Claude/Cursor), accelerating test creation and maintenance across complex user flows;",
+        "Developing AI-assisted legacy displacement skills using the Strangler Fig pattern — leveraging Claude and Cursor to accelerate incremental migration of monolithic modules to modern microservices, with automated tests to keep replacement safe;",
         "Mentoring developers to increase productivity across multiple clients;"
         ]
       },
