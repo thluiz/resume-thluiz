@@ -458,7 +458,7 @@
         "name": "Elug |> RJ",
         "company": "Meetup group",
         "start": "2016",
-        "end": "not so active",
+        "end": "2022",
         "technologies": "Elixir, Phoenix Framework, OTP, Web RTC",
         "description": "Co-organizer of Rio de Janeiro's Elixir meetup — built real-time distributed systems with the community. Led hands-on events including a real-time WebRTC audio/video chat and a multiplayer starship game using OTP supervision trees and Phoenix Channels.",
         "links": [
@@ -481,6 +481,7 @@
         "name": "Genesys - SRD",
         "company": "Grifo Editorial",
         "start": "06/2019",
+        "end": "2022",
         "technologies": "Gatsby, React, PWA",
         "description": "Genesys SRD is a Gatsby PWA with some customizations for the publisher. They need an offline reference guide for their players. It uses a Vercel (now.js) integration to automatize its own publication. The best ideas are the simplest ones.",
         "links": [
@@ -492,7 +493,7 @@
         "name": ".TV",
         "company": ".TV",
         "start": "11/2006",
-        "end": "01/2010",
+        "end": "01/2015",
         "technologies": "Ruby on Rails, AngularJs, Bootstrap, PostgreSql",
         "description": "Web channel system. It used a Ruby on Rails application to upload, orchestrate, and encode videos in different formats for the web. The idea was to explore specific niches while granting fully control of content and audience. By the time they started YouTube was not lucrative and It was before his acquisition by google. They discontinued their principal project (Psicologica.TV - a psychology channel), after the YouTube/Facebook expansion. However, <a href='http://yehudim.tv' target='_blank' class='text-secondary-500'>Yehudim.TV</a> (a Jewish channel) still working and they sold <a href='http://itvision.tv' target='_blank' class='text-secondary-500'>ITVision.TV</a> (an IT corporate channel – that now has a more modern version)."
       }

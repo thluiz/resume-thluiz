@@ -251,6 +251,7 @@
     {
       "name": "Elug |> RJ — Elixir Meetup",
       "startDate": "2016-01-01",
+      "endDate": "2022-01-01",
       "description": "Co-organizer of Rio de Janeiro's Elixir meetup. Led hands-on events building real-time distributed systems including a WebRTC audio/video chat and a multiplayer starship game using OTP supervision trees.",
       "highlights": [
         "Real-time distributed systems with OTP",
@@ -272,13 +273,14 @@
     {
       "name": "Genesys SRD",
       "startDate": "2019-06-01",
+      "endDate": "2022-01-01",
       "description": "Gatsby PWA for Grifo Editorial — an offline reference guide for tabletop RPG players with automated publication via Vercel.",
       "url": "https://github.com/thluiz/genesys-srd"
     },
     {
       "name": ".TV — Video Channel Platform",
       "startDate": "2006-11-01",
-      "endDate": "2010-01-01",
+      "endDate": "2015-01-01",
       "description": "Ruby on Rails application to upload, orchestrate, and encode videos in different formats for the web. Explored niche content delivery before YouTube's dominance.",
       "highlights": [
         "Video encoding pipeline and content orchestration",
