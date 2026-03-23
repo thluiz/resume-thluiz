@@ -3,6 +3,8 @@ import MailIcon from '../assets/mail.svg';
 import MobileIcon from '../assets/mobile.svg';
 import GlobeIcon from '../assets/globe.svg';
 import LocationIcon from '../assets/location.svg';
+import LinkedInIcon from '../assets/linkedin.svg';
+import BoltIcon from '../assets/bolt.svg';
 
 const Contact = ({ field, value }) => (
   <span className="flex my-2 text-primary-900 tracking-widest items-center">
@@ -33,6 +35,34 @@ const Contact = ({ field, value }) => (
           title="website"
         >
           Personal Site
+        </a>
+      </>
+    )}
+    {field === 'linkedin' && (
+      <>
+        <LinkedInIcon className="contact-icon" />
+        <a
+          className="contact-link"
+          target="_blank"
+          href={value}
+          rel="noopener noreferrer"
+          title="LinkedIn"
+        >
+          LinkedIn
+        </a>
+      </>
+    )}
+    {field === 'pdf' && (
+      <>
+        <BoltIcon className="contact-icon" />
+        <a
+          className="contact-link"
+          target="_blank"
+          href={value}
+          rel="noopener noreferrer"
+          title="Download PDF"
+        >
+          Download PDF
         </a>
       </>
     )}
