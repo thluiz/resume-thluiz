@@ -426,7 +426,7 @@
         "company": "Personal",
         "start": "01/2023",
         "technologies": "WSL, Docker, Ollama, systemd, nginx, Python, Bun",
-        "description": "AI development platform running multiple microservices: LLM gateway (Vox-Intelligence), transcription service (Whisper-API with CUDA), notification gateway (GossipGate), health monitoring, and 13+ AI agent skills. Dynamic GPU scheduling across services on RTX 3050.",
+        "description": "AI development platform running multiple microservices: LLM gateway (Vox-Intelligence), transcription service (Whisper-API with CUDA), notification gateway (GossipGate), health monitoring, and 13+ AI agent skills. Dynamic GPU scheduling across services.",
         "links": []
       },
       {
